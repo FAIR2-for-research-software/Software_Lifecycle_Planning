@@ -1,22 +1,24 @@
-# This template CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to replace its contents
-# with information about your lesson.
-# Remember to update this file periodically, 
-# ensuring that the author list and other fields remain accurate.
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: FIXME
+title: Thinks before Coding: Create a Software Management Plan
 message: >-
-  Please cite this lesson using the information in this file
-  when you refer to it in publications, and/or if you
-  re-use, adapt, or expand on the content in your own
-  training material.
-type: dataset
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
 authors:
-  - given-names: FIXME
-    family-names: FIXME
+  - given-names: 'Romain, Ric, Kate'
+    family-names: "Thomas, Campbell, O'Neill"
+    email: 'romain.thomas@sheffield.ac.uk, r.j.campbell@sheffield.ac.uk, k.oneill@sheffield.ac.uk'
+    affiliation: University of Sheffield
+    orcid: https://orcid.org/0000-0001-8385-3276 
+repository-code: 'https://github.com/Romain-Thomas-Shef/FAIR_Management_plan' 
+url: '' # FIXME
 abstract: >-
-  FIXME Replace this with a short abstract describing the
-  lesson, e.g. its target audience and main intended
-  learning objectives.
+  # FIXME
+keywords: # FIXME
+  - carpentries
+  - fair4rs
+  - university of sheffield
 license: CC-BY-4.0
