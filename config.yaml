@@ -65,6 +65,9 @@ contact: 'romain.thomas@sheffield.ac.uk'
 # Order of episodes in your lesson
 episodes: 
 - introduction.md
+- SMP_for_research.md
+- Intellectual_property_and_licences.md
+- Dissemination_impact.md
 
 # Information for Learners
 learners: 
