@@ -93,16 +93,19 @@ Automated testing with continuous integration (cf lecture on Testing and continu
 
 ### Dissemination.
 
-* License: This is probably one of the most important item of a software management plan. If there is no license in your software, then people are not able to re-use it because it means that you are not willing to share it (something in github without a license cannot be re-used freely). Please see the chapter on intellectual property and software licenses for more details **[link TBD]**.
+Dissemination is a cornerstone of research. When it comes to research software you will have to make sure that people know where to find it and how to use it. It comes down to three important pilars:
+
+* License: This is probably one of the most basic item of the software management plan. If there is no license in your software people won't know if they have the right to re-use your software. No license means that you retain all the rights to your source code and no one may reproduce, distribute or create derivative works from your code (which is the opposite of research philosophy). Please see the chapter on intellectual property and software licenses for more details **[link TBD]**.
 
 * Documentation is paramount: And guess what, the main group that it will help is YOUR TEAM! Research projects often span several years with people coming in and some leaving the team. If it takes someone 6 months just to understand the software that the team is developing it is going to be a waste of time. If you want a sustainable project, write a good documentation. In addition, If you produce a software with a good documentation it will be more likely used by the community and then you might get credit for it! You should make sure that the documentation is easily accessible (e.g. a website) and tailored to future researchers and the academic community in your research domain (cf Documentation module with Joe Heffer **[link TBD]**). Document how the software works, but not only this. Always describe how it serves a research question. 
 
+* Software repositories: It is important to place your software (the released version) to a place where people can download it freely. Collaborative development platform such as github are not made to store software on the long term. Nevertheless, other platform are made for this (e.g. figshare, zenodo, etc..). This is where you should look for a long term storage. Please see chapter on dissemination for more details **[Link TBD]**.
 
-* Software repositories:
+To go a little bit further, you might want to take extra step in the dissemination direction:
 
-* Publish: Once you release your software, you might want to publish it! Numerous journals accept paper about research software. Some are generalists (e.g. JOSS, JORS, SoftwareX, etc **[add links]**) and some are domain oriented. This is really something you should consider! It will give you a lot of visibility and allow you to get a citable paper associated to your software [**link to JOSS lecture**].
+* Publication: Once you release your software, you might want to publish it! Numerous journals accept papera about research software. Some are generalists (e.g. JOSS, JORS, SoftwareX, etc **[add links]**) and some are domain oriented **[add link TBD]**. This is really something you should consider! It will give you a lot of visibility and allow you to get a citable paper associated to your software [**link to JOSS lecture**].
 
-* Training: If your software sees a lot of buy-in in the community and that is relatively complex (not all software are), you might want to train others to use it. You can do that via tutorials or training events. This is a very powerful way to give your work more visibility and a very efficient way to create collaborations!
+* Training: If your software sees a lot of buy-in in the community and that is relatively complex to use (not all software are), you might want to train others to use it. You can do that via tutorials or training events. This is a very powerful way to give your work more visibility and a very efficient way to create collaborations!
 
 
 
