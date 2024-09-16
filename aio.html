@@ -367,7 +367,7 @@ reinforce the objectives.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Output </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -394,7 +394,7 @@ reinforce the objectives.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>You can add a line with at least three colons and a
 <code>solution</code> tag.</p>
@@ -518,22 +518,220 @@ someone already answered your research question then you would not try
 to answer it again. So if you want to build a software you will first
 look at what is already available. <strong>DO NOT RE-INVENT THE
 WHEEL</strong>. If something similar exists then don’t recode it! If
-something is already available but does not have all the functionality
+something is already available but does not have all the functionalities
 you are looking for then maybe you can build upon that previous work. If
 the code is open source, you might just be able to clone it and carry it
 forward. If it is not, you might be able to contact the P.I. and ask if
 you can have access to the source code (you might create new
-collaborations!). If you still want to create something from scratch
-while something already exist, always ask yourself: what would make
-people use my solution?</p>
+collaborations!).</p>
+<p>If you still want to create something from scratch while something
+already exist, always ask yourself: what would make people use my
+solution intead of the one that is already there? What addition do my
+software add to research community?</p>
+<p>Finally, what do you expect to produce? What output? What kind of
+documentation?</p>
+</div>
+<div class="section level3">
+<h3 id="human-and-technical-ressouces">Human and Technical ressouces<a class="anchor" aria-label="anchor" href="#human-and-technical-ressouces"></a>
+</h3>
+<p>Once you have a good idea of what you want to create, the next step
+is to identify who is in charge of it. Identify team members (P.I, RSE,
+Postdoc, PhD student, Data scientist) and their roles in the development
+of the tool. It is often useful to extend these distribution of roles to
+other aspects of the project, such as data management &amp; publication
+(scienctif onces and more technical ones). While it is often
+complicated, try to mitigate the bus factor <strong>[link to bus factor
+TBD]</strong>. Finally, It is also important to make sure that everbody
+gets credited when the work is done. Discussing these aspects beforehand
+will potentialy avoid some painfuly difficult discussion (and
+frustration) down the line.</p>
+<p>On the technical side, it is important to identify technical
+resources, e.g. computing environement, High Performance Computing
+platform, that might be available. You might not see their need at
+first, but as the development goes on, if you know what support you can
+get from your own institution it is always interesting to know where
+they are and how accessible they are (some might need financing!).</p>
+<ul>
+<li>Focus: Define responsibilities not just for coding, but also for
+research integrity, data handling, and ensuring reproducibility.</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="development-approach">Development Approach<a class="anchor" aria-label="anchor" href="#development-approach"></a>
+</h3>
+<p>How will you develop your code? Multiple ways exist to manage the
+development of a software, we can name two here:</p>
+<ul>
+<li><p>Waterfall: <strong>TBD</strong></p></li>
+<li><p>Agile: <strong>TBD</strong></p></li>
+</ul>
+<p>Research is an iterative provess involving a lot of trials/errors
+cycle and experimentation and communication will be a key aspect of
+success. It might be interesting to have short development cycles with
+an iterative approach. This will help you analyse intermediary research
+outcomes, review the development of the software (and documentation) and
+overall progress. It is not rare that while developing a research tool
+with a clear goal in mind you end up finding serendipitous results.
+Whatever method of project management you choose, ensure that it is
+fostering collaboration within the group.</p>
+<p>In addition, what tools are you using for software development? Do
+not end up with multiple files for the multiple version of your software
+(e.g. version1, version 1_1, version1_2, version1_final,
+version1_final2, etccc). It will become unmanageable. To avoid such a
+situationm, it is important to have a version control tool that allows
+you to track the changes that you implement in your software.
+<strong>[Add link to Neil’s lectures TBD]</strong></p>
+</div>
+<div class="section level3">
+<h3 id="timeline-and-milestones">Timeline and Milestones<a class="anchor" aria-label="anchor" href="#timeline-and-milestones"></a>
+</h3>
+<p>Creating a software is not easy. The bigger it gets, the more
+complicated it becomes. Hence it is important to have checkpoints, or
+milestones, that you can work toward. It is often possible to split the
+development of a research into multiple intermediary states. These
+intermediary states will give you a more achievable work and allow you
+to track the work. This will create your development timeline.</p>
+<p>In addition, it is important to coordinate this timeline with
+research milestones and deadlines. They can be paper submissions,
+conference presentations, funding milestones, PhD thesis milestones.
+Software development and research progress might be aligned and tracked
+concurently. If they diverge you will be in trouble.</p>
+</div>
+<div class="section level3">
+<h3 id="risk-management">Risk Management<a class="anchor" aria-label="anchor" href="#risk-management"></a>
+</h3>
+<p><strong>Nothing will work from the 1st try!</strong> You will find
+blockades on the way and some can be identified beforehand. Failure to
+achieve scientific outcomes, data issues (sometimes will never come!),
+reproducibility failures, or tool/library obsolescence are example of
+such risks.</p>
+<p>Once identified, you should think how to mitigate these risks and
+create a contingency plan (plan B) in case they turn out to be real
+problems (e.g., backup strategies for data and code, alternative
+methods).</p>
+<p>One important aspect of research it is that it is hard to plan. So
+how will you address changes in the research hypothesis, data, or
+experimental design and how might that impact the software. Ensure
+proper version control for both code and datasets and allow for
+flexibility for exploratory research where new insights might lead to
+changes in the software. This gets much easier when the code is written
+in a maintainable and readable way **(cf lecture on code design by R.
+Thoma, [add link to lecture, TBD]).</p>
+</div>
+<div class="section level3">
+<h3 id="quality-assurance">Quality Assurance<a class="anchor" aria-label="anchor" href="#quality-assurance"></a>
+</h3>
+<p><em>Wouldn’t it be sad that all the work you have been putting in
+your software development is wasted by a typo in the code?</em> How do
+you make sure that the code you are writing is doing things as intended?
+And that the scientific results your producing are reliable and
+reproducible?</p>
+<p>Develop strategies to ensure both code quality and research
+reproducibility: * The code quality can be achieved by doing code
+reviews. Regular peer review are very helpful both for increasing the
+quality and for disseminating knowledge in the team (reducing the bus
+factor). Automated testing with continuous integration (cf lecture on
+Testing and continuous integration with S. Wittle <strong>[link
+TBD]</strong>), version control (cf LectureS on version control by Neil
+Shepherd <strong>[link TBD]</strong>), etc… * Research reproducibility
+will also benefit from all of the previous suggestions, but you can add
+data version control (DVC) that will help track the state of your data
+and changes, parametrisation of code ensures that it can be rerun with
+different parameters easily (without changing the code) via
+configuration files or command line interface <strong>[link
+TBD]</strong>. Testing by other people also helps. If someone else in
+your team can reproduce your results gives a good idea of how
+reproducible are your results. Finally, and for a more advanced case, it
+is possible to fully automatise reproducibility checks.</p>
+<ul>
+<li>Reliability of science results can be tested by comparing your code
+with exsiting datasets. Can you replicate exiting results with your own
+tool? That will give you an interesting insight.</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="dissemination-">Dissemination.<a class="anchor" aria-label="anchor" href="#dissemination-"></a>
+</h3>
+<ul>
+<li><p>License: This is probably one of the most important item of a
+software management plan. If there is no license in your software, then
+people are not able to re-use it because it means that you are not
+willing to share it (something in github without a license cannot be
+re-used freely). Please see the chapter on intellectual property and
+software licenses for more details <strong>[link TBD]</strong>.</p></li>
+<li><p>Documentation is paramount: And guess what, the main group that
+it will help is YOUR TEAM! Research projects often span several years
+with people coming in and some leaving the team. If it takes someone 6
+months just to understand the software that the team is developing it is
+going to be a waste of time. If you want a sustainable project, write a
+good documentation. In addition, If you produce a software with a good
+documentation it will be more likely used by the community and then you
+might get credit for it! You should make sure that the documentation is
+easily accessible (e.g. a website) and tailored to future researchers
+and the academic community in your research domain (cf Documentation
+module with Joe Heffer <strong>[link TBD]</strong>). Document how the
+software works, but not only this. Always describe how it serves a
+research question.</p></li>
+<li><p>Software repositories:</p></li>
+<li><p>Publish: Once you release your software, you might want to
+publish it! Numerous journals accept paper about research software. Some
+are generalists (e.g. JOSS, JORS, SoftwareX, etc <strong>[add
+links]</strong>) and some are domain oriented. This is really something
+you should consider! It will give you a lot of visibility and allow you
+to get a citable paper associated to your software [<strong>link to JOSS
+lecture</strong>].</p></li>
+<li><p>Training: If your software sees a lot of buy-in in the community
+and that is relatively complex (not all software are), you might want to
+train others to use it. You can do that via tutorials or training
+events. This is a very powerful way to give your work more visibility
+and a very efficient way to create collaborations!</p></li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="long-term-sustainability">Long term sustainability<a class="anchor" aria-label="anchor" href="#long-term-sustainability"></a>
+</h3>
+<p>Maintenance of the software is tricky. We can distinguish two parts:
+- The software is in a final form, but the founding is still there: In
+that case it is important to identify who is in charge of the
+maintenance and update. You might work with totally different people
+than at the beginning of the project. So it is important to plan this
+ahead (cf previous section). A good documentation will always help the
+maintenance. - The research project comes to an end (and with it, its
+founding). That’s the tricky situation, long term maintenance is
+difficult because founders do not plan for this (which happens
+everywhere). If you want to increase the chance that your software work
+in 5 or 10 years, what you could envisage to do is to distribute your
+software with its own computational environment. This ships your
+software with the required dependencies and put all this in its
+own bubble.  If you are interested to learn more about this, register to
+the lecture on reproducible Computational environment, by Daniel Brady
+<strong>[Link TBD]</strong>.</p>
+<p>In general, making a software open-source, will increase the chance
+that other people can increase its lifetime beyond your own involvement!
+(Cf section on Software Licence)</p>
 </div>
 </section><section><h2 class="section-heading" id="minimal-version">Minimal version<a class="anchor" aria-label="anchor" href="#minimal-version"></a>
 </h2>
 <hr class="half-width">
+<p>Everything that has been described previously can be quite
+intimidating at first. There is a lot to think about and depending on
+the size of your project you might not need all of these details. If you
+want to go with a minimal set of items to put in place you could choose
+the following ones:</p>
+<ul>
+<li>Information on what software outputs (including documentation and
+other related material) are expected to be produced ;</li>
+<li>Who is responsible for the development work?;</li>
+<li>The version control process to be used;</li>
+<li>What license will be used for each output?</li>
+</ul>
+<p>These four items should be mandatory for each software created in
+academia.</p>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
- --></section></section><section id="aio-Intellectual_property_and_licences"><p>Content from <a href="Intellectual_property_and_licences.html">Using Markdown</a></p>
+ -->
+</section></section><section id="aio-Intellectual_property_and_licences"><p>Content from <a href="Intellectual_property_and_licences.html">Using Markdown</a></p>
 <hr>
 <p>Last updated on 2024-09-16 |
 
