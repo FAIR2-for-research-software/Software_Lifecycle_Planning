@@ -353,7 +353,7 @@ reinforce the objectives.</li>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>Inline instructor notes can help inform instructors of timing
 challenges associated with the lessons. They appear in the “Instructor
@@ -384,7 +384,7 @@ View”</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Output </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -411,7 +411,7 @@ View”</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>You can add a line with at least three colons and a
 <code>solution</code> tag.</p>
@@ -670,13 +670,18 @@ tool? That will give you an interesting insight.</li>
 <div class="section level3">
 <h3 id="dissemination-">Dissemination.<a class="anchor" aria-label="anchor" href="#dissemination-"></a>
 </h3>
+<p>Dissemination is a cornerstone of research. When it comes to research
+software you will have to make sure that people know where to find it
+and how to use it. It comes down to three important pilars:</p>
 <ul>
-<li><p>License: This is probably one of the most important item of a
-software management plan. If there is no license in your software, then
-people are not able to re-use it because it means that you are not
-willing to share it (something in github without a license cannot be
-re-used freely). Please see the chapter on intellectual property and
-software licenses for more details <strong>[link TBD]</strong>.</p></li>
+<li><p>License: This is probably one of the most basic item of the
+software management plan. If there is no license in your software people
+won’t know if they have the right to re-use your software. No license
+means that you retain all the rights to your source code and no one may
+reproduce, distribute or create derivative works from your code (which
+is the opposite of research philosophy). Please see the chapter on
+intellectual property and software licenses for more details
+<strong>[link TBD]</strong>.</p></li>
 <li><p>Documentation is paramount: And guess what, the main group that
 it will help is YOUR TEAM! Research projects often span several years
 with people coming in and some leaving the team. If it takes someone 6
@@ -690,19 +695,30 @@ and the academic community in your research domain (cf Documentation
 module with Joe Heffer <strong>[link TBD]</strong>). Document how the
 software works, but not only this. Always describe how it serves a
 research question.</p></li>
-<li><p>Software repositories:</p></li>
-<li><p>Publish: Once you release your software, you might want to
-publish it! Numerous journals accept paper about research software. Some
-are generalists (e.g. JOSS, JORS, SoftwareX, etc <strong>[add
-links]</strong>) and some are domain oriented. This is really something
-you should consider! It will give you a lot of visibility and allow you
-to get a citable paper associated to your software [<strong>link to JOSS
+<li><p>Software repositories: It is important to place your software
+(the released version) to a place where people can download it freely.
+Collaborative development platform such as github are not made to store
+software on the long term. Nevertheless, other platform are made for
+this (e.g. figshare, zenodo, etc..). This is where you should look for a
+long term storage. Please see chapter on dissemination for more details
+<strong>[Link TBD]</strong>.</p></li>
+</ul>
+<p>To go a little bit further, you might want to take extra step in the
+dissemination direction:</p>
+<ul>
+<li><p>Publication: Once you release your software, you might want to
+publish it! Numerous journals accept papera about research software.
+Some are generalists (e.g. JOSS, JORS, SoftwareX, etc <strong>[add
+links]</strong>) and some are domain oriented <strong>[add link
+TBD]</strong>. This is really something you should consider! It will
+give you a lot of visibility and allow you to get a citable paper
+associated to your software [<strong>link to JOSS
 lecture</strong>].</p></li>
 <li><p>Training: If your software sees a lot of buy-in in the community
-and that is relatively complex (not all software are), you might want to
-train others to use it. You can do that via tutorials or training
-events. This is a very powerful way to give your work more visibility
-and a very efficient way to create collaborations!</p></li>
+and that is relatively complex to use (not all software are), you might
+want to train others to use it. You can do that via tutorials or
+training events. This is a very powerful way to give your work more
+visibility and a very efficient way to create collaborations!</p></li>
 </ul>
 </div>
 <div class="section level3">
