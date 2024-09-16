@@ -20,10 +20,7 @@ exercises: 0
 ## Introduction
 
 
-## A traditional Software Management Plan (SMP)
-
-
-## The version adapted for research
+## Software management plan in academia
 
 Research is quite different from private sector. The goal of a research software is to answer a research question in a way that allows other people (and yourself) to carry it forward. ALigning the SMP to the research lifecyle ensure that the software not only facilitates scientific progress but also meets academics standards for collaboration, documentation and reproducibility.
 
