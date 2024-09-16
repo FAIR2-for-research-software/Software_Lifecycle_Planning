@@ -39,9 +39,11 @@ If something similar exists then don't recode it! If something is already availa
 
 If you still want to create something from scratch while something already exist, always ask yourself: what would make people use my solution intead of the one that is already there? What addition do my software add to research community?
 
+Finally, what do you expect to produce? What output? What kind of documentation?
+
 ### Human and Technical ressouces
 
-Once you have a good idea of what you want to create, the next step is to identify who is in charge of it. Identify team members (P.I, RSE, Postdoc, PhD student, Data scientist) and their roles in the development of the tool. It is often useful to extend these distribution of roles to other aspects of the project, such as data management & publication (scienctif onces and more technical ones). Not everybody has the same role nor the same interests so the distribution of roles is crucial. It is also important to make sure that everbody gets credited when the work is done. Discussing these aspects beforehand will potentialy avoid some painfuly difficult discussion (and frustration) down the line.  
+Once you have a good idea of what you want to create, the next step is to identify who is in charge of it. Identify team members (P.I, RSE, Postdoc, PhD student, Data scientist) and their roles in the development of the tool. It is often useful to extend these distribution of roles to other aspects of the project, such as data management & publication (scienctif onces and more technical ones). While it is often complicated, try to mitigate the bus factor **[link to bus factor TBD]**.  Finally, It is also important to make sure that everbody gets credited when the work is done. Discussing these aspects beforehand will potentialy avoid some painfuly difficult discussion (and frustration) down the line.  
 
 On the technical side, it is important to identify technical resources, e.g. computing environement, High Performance Computing platform, that might be available. You might not see their need at first, but as the development goes on, if you know what support you can get from your own institution it is always interesting to know where they are and how accessible they are (some might need financing!). 
 
@@ -52,14 +54,14 @@ On the technical side, it is important to identify technical resources, e.g. com
 
 How will you develop your code? Multiple ways exist to manage the development of a software, we can name two here:
 
-* Waterfall:
+* Waterfall: **TBD**
 
-* Agile:
+* Agile: **TBD**
 
 
 Research is an iterative provess involving a lot of trials/errors cycle and experimentation and communication will be a key aspect of success. It might be interesting to have short development cycles with an iterative approach. This will help you analyse intermediary research outcomes, review the development of the software (and documentation) and overall progress. It is not rare that while developing a research tool with a clear goal in mind you end up finding serendipitous results. Whatever method of project management you choose, ensure that it is fostering collaboration within the group. 
 
-In addition, what tools are you using for software development? Do not end up with multiple files for the multiple version of your software (e.g. version1, version 1_1, version1_2, version1_final, version1_final2, etccc). It will become unmanageable. To avoid such a situationm, it is important to have a version control tool that allows you to track the changes that you implement in your software. **[Add link to Neil's lectures]** 
+In addition, what tools are you using for software development? Do not end up with multiple files for the multiple version of your software (e.g. version1, version 1_1, version1_2, version1_final, version1_final2, etccc). It will become unmanageable. To avoid such a situationm, it is important to have a version control tool that allows you to track the changes that you implement in your software. **[Add link to Neil's lectures TBD]** 
 
 ### Timeline and Milestones
 
@@ -74,10 +76,52 @@ In addition, it is important to coordinate this timeline with research milestone
 
 Once identified, you should think how to mitigate these risks and create a contingency plan (plan B) in case they turn out to be real problems (e.g., backup strategies for data and code, alternative methods).
 
-One important aspect of research it is that it is hard to plan. So how will you address changes in the research hypothesis, data, or experimental design and how might that impact the software. Ensure proper version control for both code and datasets and allow for flexibility for exploratory research where new insights might lead to changes in the software. This gets much easier when the code is written in a maintainable and readable way **(cf lecture on code design by R. Thoma, [add link to lecture]).
+One important aspect of research it is that it is hard to plan. So how will you address changes in the research hypothesis, data, or experimental design and how might that impact the software. Ensure proper version control for both code and datasets and allow for flexibility for exploratory research where new insights might lead to changes in the software. This gets much easier when the code is written in a maintainable and readable way **(cf lecture on code design by R. Thoma, [add link to lecture, TBD]).
 
+
+### Quality Assurance
+
+*Wouldn’t it be sad that all the work you have been putting in your software development is wasted by a typo in the code?* How do you make sure that the code you are writing is doing things as intended? And that the scientific results your producing are reliable and reproducible?  
+
+Develop strategies to ensure both code quality and research reproducibility:
+* The code quality can be achieved by doing code reviews. Regular peer review are very helpful both for increasing the quality and for disseminating knowledge in the team (reducing the bus factor). 
+Automated testing with continuous integration (cf lecture on Testing and continuous integration with S. Wittle **[link TBD]**), version control (cf LectureS on version control by Neil Shepherd **[link TBD]**), etc… 
+* Research reproducibility will also benefit from all of the previous suggestions, but you can add data version control (DVC) that will help track the state of your data and changes, parametrisation of code ensures that it can be rerun with different parameters easily (without changing the code) via configuration files or command line interface **[link TBD]**.  Testing by other people also helps. If someone else in your team can reproduce your results gives a good idea of how reproducible are your results. Finally, and for a more advanced case, it is possible to fully automatise reproducibility checks.  
+
+* Reliability of science results can be tested by comparing your code with exsiting datasets. Can you replicate exiting results with your own tool? That will give you an interesting insight. 
+
+
+### Dissemination.
+
+* License: This is probably one of the most important item of a software management plan. If there is no license in your software, then people are not able to re-use it because it means that you are not willing to share it (something in github without a license cannot be re-used freely). Please see the chapter on intellectual property and software licenses for more details **[link TBD]**.
+
+* Documentation is paramount: And guess what, the main group that it will help is YOUR TEAM! Research projects often span several years with people coming in and some leaving the team. If it takes someone 6 months just to understand the software that the team is developing it is going to be a waste of time. If you want a sustainable project, write a good documentation. In addition, If you produce a software with a good documentation it will be more likely used by the community and then you might get credit for it! You should make sure that the documentation is easily accessible (e.g. a website) and tailored to future researchers and the academic community in your research domain (cf Documentation module with Joe Heffer **[link TBD]**). Document how the software works, but not only this. Always describe how it serves a research question. 
+
+
+* Software repositories:
+
+* Publish: Once you release your software, you might want to publish it! Numerous journals accept paper about research software. Some are generalists (e.g. JOSS, JORS, SoftwareX, etc **[add links]**) and some are domain oriented. This is really something you should consider! It will give you a lot of visibility and allow you to get a citable paper associated to your software [**link to JOSS lecture**].
+
+* Training: If your software sees a lot of buy-in in the community and that is relatively complex (not all software are), you might want to train others to use it. You can do that via tutorials or training events. This is a very powerful way to give your work more visibility and a very efficient way to create collaborations!
+
+
+
+### Long term sustainability
+Maintenance of the software is tricky. We can distinguish two parts: 
+- The software is in a final form, but the founding is still there: In that case it is important to identify who is in charge of the maintenance and update. You might work with totally different people than at the beginning of the project. So it is important to plan this ahead (cf previous section). A good documentation will always help the maintenance.
+- The research project comes to an end (and with it, its founding). That’s the tricky situation, long term maintenance is difficult because founders do not plan for this (which happens everywhere).  If you want to increase the chance that your software work in 5 or 10 years, what you could envisage to do is to distribute your software with its own computational environment. This ships your software with the required dependencies and put all this in its own bubble.  If you are interested to learn more about this, register to the lecture on reproducible Computational environment, by Daniel Brady **[Link TBD]**.
+
+In general, making a software open-source, will increase the chance that other people can increase its lifetime beyond your own involvement! (Cf section on Software Licence)
 
 ## Minimal version
 
+Everything that has been described previously can be quite intimidating at first. There is a lot to think about and depending on the size of your project you might not need all of these details. If you want to go with a minimal set of items to put in place you could choose the following ones:
+
+* Information on what software outputs (including documentation and other related material) are expected to be produced ; 
+* Who is responsible for the development work?;
+* The version control process to be used;
+* What license will be used for each output?
+
+These four items should be mandatory for each software created in academia. 
 
 
