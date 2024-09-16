@@ -12,40 +12,36 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Understand what are the main points of a software management plan
-- How does it adapt to your research?
+- Understand what are the main points of a software management plan.
+- What are they main question you should ask yourself before diving into the coding part.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Introduction
 
+A Software management plan [SMP] is a framework that outlines how software development, releases, maintenance, and support will be conducted throughout its lifecycle. It outlines how the key aspects like goals, ressources, milestone, risks, and quality are effectively controlled. The plan is usually created early in the project and is essential for both small and large projects to ensure clear communication and expectations among team members and stakeholders. In this chapter we present various point that you might want to think about when you start developing a code for research. The goal is that you ask yourself the right questions before embarking in an important software development journey. 
 
 ## Software management plan in academia
 
-Research is quite different from private sector. The goal of a research software is to answer a research question in a way that allows other people (and yourself) to carry it forward. ALigning the SMP to the research lifecyle ensure that the software not only facilitates scientific progress but also meets academics standards for collaboration, documentation and reproducibility.
-
-Note: Not covered here is the finance part of the plan.. 
-
+Research is quite different from private sector. The goal of a research software is to answer a research question in a way that allows other people (and yourself) to carry it forward. Aligning the SMP to the research lifecyle ensure that the software not only facilitates scientific progress but also meets academics standards for collaboration, documentation and reproducibility.
 
 ### Project Overview
 
 This is the start of the project. You will not start a research software without having a research question you want to answer. Having a clear research question will greatly help you define your software. 
 
-Then what would you do? The answer is the same as for the research question: you look at what is already out there in the literature. If someone already answered your research question then you would not try to answer it again. So if you want to build a software you will first look at what is already available. **DO NOT RE-INVENT THE WHEEL**. 
+Then what would you do? The answer is the same as for the research question: you look at what is already out there in the literature. If someone had already answered your research question then you would not try to answer it again. So if you want to build a software you will first look at what is already available. **DO NOT RE-INVENT THE WHEEL**. 
+
 If something similar exists then don't recode it! If something is already available but does not have all the functionalities you are looking for then maybe you can build upon that previous work. If the code is open source, you might just be able to clone it and carry it forward. If it is not, you might be able to contact the P.I. and ask if you can have access to the source code (you might create new collaborations!). 
 
-If you still want to create something from scratch while something already exist, always ask yourself: what would make people use my solution intead of the one that is already there? What addition do my software add to research community?
+If you still want to create something from scratch while something already exists, always ask yourself: what would make people use my solution intead of the one that is already available? What addition does my software bring to the research community?
 
-Finally, what do you expect to produce? What output? What kind of documentation?
+Finally, what do you expect to produce? What is the end product?  What output will it create? How will I make people engage with it?  All these questions are important!
 
 ### Human and Technical ressouces
 
-Once you have a good idea of what you want to create, the next step is to identify who is in charge of it. Identify team members (P.I, RSE, Postdoc, PhD student, Data scientist) and their roles in the development of the tool. It is often useful to extend these distribution of roles to other aspects of the project, such as data management & publication (scienctif onces and more technical ones). While it is often complicated, try to mitigate the bus factor **[link to bus factor TBD]**.  Finally, It is also important to make sure that everbody gets credited when the work is done. Discussing these aspects beforehand will potentialy avoid some painfuly difficult discussion (and frustration) down the line.  
+Once you have a good idea of what you want to create, the next step is to identify who is in charge of it. Identify team members (P.I, RSE, Postdocs, PhD students) and their roles in the development of the tool. It is often useful to extend these distribution of roles to other aspects of the project, such as data management & publication (scienctif ones and more technical ones). While it is often complicated, try to mitigate the bus factor **[link to bus factor TBD]**.  Finally, It is also important to make sure that everbody gets credited for their work. Discussing these aspects beforehand will potentialy avoid some painfuly difficult discussion (and frustration) down the line.  
 
 On the technical side, it is important to identify technical resources, e.g. computing environement, High Performance Computing platform, that might be available. You might not see their need at first, but as the development goes on, if you know what support you can get from your own institution it is always interesting to know where they are and how accessible they are (some might need financing!). 
-
-* Focus: Define responsibilities not just for coding, but also for research integrity, data handling, and ensuring reproducibility.
-
 
 ### Development Approach
 
@@ -55,34 +51,31 @@ How will you develop your code? Multiple ways exist to manage the development of
 
 * Agile: **TBD**
 
-
-Research is an iterative provess involving a lot of trials/errors cycle and experimentation and communication will be a key aspect of success. It might be interesting to have short development cycles with an iterative approach. This will help you analyse intermediary research outcomes, review the development of the software (and documentation) and overall progress. It is not rare that while developing a research tool with a clear goal in mind you end up finding serendipitous results. Whatever method of project management you choose, ensure that it is fostering collaboration within the group. 
+Whatever method of project management you choose, ensure that it is fostering collaboration within the group. Research is an iterative provess involving a lot of trials/errors cycle and experimentations. Communication will be a key aspect of success. It might be interesting to have short development cycles with an iterative approach. This will help you analyse intermediary research outcomes, review the development of the software (and documentation) and overall progress. It is not rare that while developing a research tool with a clear goal in mind you end up finding serendipitous results that are worth a publication! 
 
 In addition, what tools are you using for software development? Do not end up with multiple files for the multiple version of your software (e.g. version1, version 1_1, version1_2, version1_final, version1_final2, etccc). It will become unmanageable. To avoid such a situationm, it is important to have a version control tool that allows you to track the changes that you implement in your software. **[Add link to Neil's lectures TBD]** 
 
 ### Timeline and Milestones
 
-Creating a software is not easy. The bigger it gets, the more complicated it becomes. Hence it is important to have checkpoints, or milestones, that you can work toward. It is often possible to split the development of a research into multiple intermediary states. These intermediary states will give you a more achievable work and allow you to track the work. This will create your development timeline. 
+Creating a software is not easy. The bigger it gets, the more complicated it becomes. Hence it is important to have checkpoints, or milestones, that you can work toward. It is often possible to split the development of a research into multiple intermediary states. These intermediary states will give you more realistic and achievable objectives and allow you to track the work. This will create your development timeline. 
 
-In addition, it is important to coordinate this timeline with research milestones and deadlines. They can be paper submissions, conference presentations, funding milestones, PhD thesis milestones. Software development and research progress might be aligned and tracked concurently. If they diverge you will be in trouble.  
-
+In addition, it is important to coordinate this timeline with research milestones and deadlines. They can be paper submissions, conference presentations, funding milestones, PhD thesis milestones. Software development and research progress should be as aligned as possible and tracked concurently. If they diverge you will be in trouble.  
 
 ### Risk Management
 
-**Nothing will work from the 1st try!** You will find blockades on the way and some can be identified beforehand. Failure to achieve scientific outcomes, data issues (sometimes will never come!), reproducibility failures, or tool/library obsolescence are example of such risks.
+**Nothing will work from the first try!** You will find blockades on the way and some can be identified beforehand. Failure to achieve scientific outcomes, data issues (sometimes will never come!), reproducibility failures, or tool/library obsolescence are example of such risks.
 
-Once identified, you should think how to mitigate these risks and create a contingency plan (plan B) in case they turn out to be real problems (e.g., backup strategies for data and code, alternative methods).
+Once identified, you should think how to mitigate these risks and create a contingency plan (a plan B) in case they turn out to be real problems (e.g., backup strategies for data and code, alternative methods).
 
 One important aspect of research it is that it is hard to plan. So how will you address changes in the research hypothesis, data, or experimental design and how might that impact the software. Ensure proper version control for both code and datasets and allow for flexibility for exploratory research where new insights might lead to changes in the software. This gets much easier when the code is written in a maintainable and readable way **(cf lecture on code design by R. Thoma, [add link to lecture, TBD]).
 
 
 ### Quality Assurance
 
-*Wouldn’t it be sad that all the work you have been putting in your software development is wasted by a typo in the code?* How do you make sure that the code you are writing is doing things as intended? And that the scientific results your producing are reliable and reproducible?  
+*Wouldn’t it be sad that all the work you have been putting in your software development is wasted by a typo in the code?* How do you make sure that the code you are writing is doing things as it is intended to be done? And that the scientific results your producing are reliable and reproducible?  
 
 Develop strategies to ensure both code quality and research reproducibility:
-* The code quality can be achieved by doing code reviews. Regular peer review are very helpful both for increasing the quality and for disseminating knowledge in the team (reducing the bus factor). 
-Automated testing with continuous integration (cf lecture on Testing and continuous integration with S. Wittle **[link TBD]**), version control (cf LectureS on version control by Neil Shepherd **[link TBD]**), etc… 
+* The code quality can be achieved by doing code peer reviews. Regular peer review are very helpful both for increasing the quality and for disseminating knowledge in the team (reducing the bus factor). Automated testing with continuous integration (cf lecture on Testing and continuous integration with S. Wittle **[link TBD]**), version control (cf LectureS on version control by Neil Shepherd **[link TBD]**), etc… 
 * Research reproducibility will also benefit from all of the previous suggestions, but you can add data version control (DVC) that will help track the state of your data and changes, parametrisation of code ensures that it can be rerun with different parameters easily (without changing the code) via configuration files or command line interface **[link TBD]**.  Testing by other people also helps. If someone else in your team can reproduce your results gives a good idea of how reproducible are your results. Finally, and for a more advanced case, it is possible to fully automatise reproducibility checks.  
 
 * Reliability of science results can be tested by comparing your code with exsiting datasets. Can you replicate exiting results with your own tool? That will give you an interesting insight. 
