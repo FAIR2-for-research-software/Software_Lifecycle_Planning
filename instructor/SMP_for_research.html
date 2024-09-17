@@ -338,7 +338,11 @@ already exists, always ask yourself: what would make people use my
 solution instead of the one that is already available? What addition
 does my software bring to the research community?</p>
 <p>When you have a good sense of what you want to create you must define
-what will be the data that will be used and output of the tool.</p>
+what will be the data that will be used and output of the tool. It often
+happens that for a given domain some data standard are in use. Try to
+stick to these standards as much as you can and you will make your
+software more <strong>interoperable</strong> with other systems and
+<strong>reusable</strong> by others.</p>
 </div>
 <div class="section level3">
 <h3 id="human-and-technical-ressouces">Human and Technical ressouces<a class="anchor" aria-label="anchor" href="#human-and-technical-ressouces"></a></h3>
@@ -409,7 +413,9 @@ version1_final2, etccc). It will become unmanageable. To avoid such a
 situation, it is important to have a version control tool that allows
 you to track the changes that you implement in your software. Some
 lectures on this program could help with this: <a href="https://mydevelopment.csod.com/ui/lms-learning-details/app/event/d4d09f67-097b-4451-8ddb-86cb90636c06" class="external-link">Git-beginners</a>
-&amp; <a href="https://mydevelopment.csod.com/ui/lms-learning-details/app/event/6197989b-bef2-4352-a14b-02c4f45bbca6" class="external-link">Git-collaboration</a>.</p>
+&amp; <a href="https://mydevelopment.csod.com/ui/lms-learning-details/app/event/6197989b-bef2-4352-a14b-02c4f45bbca6" class="external-link">Git-collaboration</a>.
+Using version control will help making your software more
+<strong>FAIR</strong> (all letters!).</p>
 </div>
 <div class="section level3">
 <h3 id="timeline-and-milestones">Timeline and Milestones<a class="anchor" aria-label="anchor" href="#timeline-and-milestones"></a></h3>
@@ -444,7 +450,8 @@ experimental design and how might that impact the software. Ensure
 proper version control for both code and datasets and allow for
 flexibility for exploratory research where new insights might lead to
 changes in the software. This gets much easier when the code is written
-in a maintainable and readable way (The lecture on <a href="https://mydevelopment.csod.com/ui/lms-learning-details/app/event/d3c2cca5-d894-44b6-a79b-e93dea7a7c94" class="external-link">Design
+in a maintainable, readable and <strong>Reusable</strong> way (The
+lecture on <a href="https://mydevelopment.csod.com/ui/lms-learning-details/app/event/d3c2cca5-d894-44b6-a79b-e93dea7a7c94" class="external-link">Design
 your code</a> might be helpful for this).</p>
 </div>
 <div class="section level3">
@@ -476,12 +483,16 @@ automatise reproducibility checks.</p></li>
 <li><p>Reliability of science results can be tested by comparing your
 code with exsiting datasets. Can you replicate exiting results with your
 own tool? That will give you an interesting insight.</p></li>
-</ul></div>
+</ul><p>A Tested software make it more reliable and robust. You will greatly
+enhance its <strong>Reusability</strong> and make your science more
+<strong>Reproducible</strong>.</p>
+</div>
 <div class="section level3">
 <h3 id="dissemination-">Dissemination.<a class="anchor" aria-label="anchor" href="#dissemination-"></a></h3>
 <p>Dissemination is a cornerstone of research. When it comes to research
 software you will have to make sure that people know where to find it
-and how to use it. It comes down to three important pilars:</p>
+and how to use it (<strong>Findable</strong> and
+<strong>Reusable</strong>). It comes down to three important pilars:</p>
 <ul><li><p>License: This is probably one of the most basic item of the
 software management plan. If there is no license in your software people
 won’t know if they have the right to re-use your software. No license
@@ -527,23 +538,26 @@ visibility and a very efficient way to create collaborations!</p></li>
 </ul></div>
 <div class="section level3">
 <h3 id="long-term-sustainability">Long term sustainability<a class="anchor" aria-label="anchor" href="#long-term-sustainability"></a></h3>
-<p>Maintenance of the software is tricky. We can distinguish two parts:
-- The software is in a final form, but the founding is still there: In
-that case it is important to identify who is in charge of the
+<p>Maintenance of the software is tricky. We can distinguish two
+parts:</p>
+<ul><li><p>The software is in a final form, but the founding is still there:
+In that case it is important to identify who is in charge of the
 maintenance and update. You might work with totally different people
 than at the beginning of the project. So it is important to plan this
 ahead (cf previous section). A good documentation will always help the
-maintenance. - The research project comes to an end (and with it, its
-founding). That’s the tricky situation, long term maintenance is
-difficult because founders do not plan for this (which happens
-everywhere). If you want to increase the chance that your software work
-in 5 or 10 years, what you could envisage to do is to distribute your
-software with its own computational environment. This ships your
-software with the required dependencies and put all this in its
-own bubble.  If you are interested to learn more about this, register to
-the lecture on <a href="https://mydevelopment.csod.com/ui/lms-learning-details/app/event/e30c407d-c97d-44a0-b3fd-4e87f95c4789" class="external-link">Reproducible
-Computational Environment</a>.</p>
-</div>
+maintenance.</p></li>
+<li><p>The research project comes to an end (and with it, its founding).
+That’s the tricky situation, long term maintenance is difficult because
+founders do not plan for this (which happens everywhere). If you want to
+increase the chances that your software work in 5 or 10 years, what you
+could envisage to do is to distribute your software with its own
+computational environment. This ships your software with the required
+dependencies and put all this in its own bubble. This greatly enhance
+long term <strong>Reproducibility</strong> of your work. If you are
+interested to learn more about this, you can register to the lecture on
+<a href="https://mydevelopment.csod.com/ui/lms-learning-details/app/event/e30c407d-c97d-44a0-b3fd-4e87f95c4789" class="external-link">Reproducible
+Computational Environment</a>.</p></li>
+</ul></div>
 </section><section><h2 class="section-heading" id="minimal-version">Minimal version<a class="anchor" aria-label="anchor" href="#minimal-version"></a></h2>
 <hr class="half-width"><p>Everything that has been described previously can be quite
 intimidating at first. There is a lot to think about and depending on
