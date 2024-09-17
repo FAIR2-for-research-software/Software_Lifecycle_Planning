@@ -283,8 +283,9 @@
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
-<ul><li>Understand the definition of software in research and what is the
-life of a software</li>
+<ul><li>Understand the definition of software in research.</li>
+<li>Get to know the software lifecycle and how it applies to research
+software.</li>
 </ul></div>
 </div>
 </div>
@@ -296,9 +297,15 @@ research. The size of projects can vary from a small script of a few
 dozens of lines to a massive project with millions of lines. If you are
 interested in a discussion around a research software definition you can
 have a look <a href="https://zenodo.org/records/5504016" class="external-link">here</a>. For
-the shortcut version here is a definition of research software that we
+the shortcut version, here is a definition of research software that we
 are going to consider:</p>
-<div class="keypoint">
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points</h3>
+<div class="callout-content">
 <p>Research Software includes source code files, algorithms, scripts,
 computational workflows and executables that were created during the
 research process or for a research purpose. Software components (e.g.,
@@ -308,34 +315,38 @@ research intent should be considered software in research and not
 Research Software. This differentiatio nmay vary between
 disciplines.</p>
 </div>
+</div>
+</div>
 </section><section><h2 class="section-heading" id="the-software-lifecyle">The software lifecyle<a class="anchor" aria-label="anchor" href="#the-software-lifecyle"></a></h2>
 <hr class="half-width"><p>A traditional software lifecycle (in a non-academic setup) involved
 the following phases:</p>
-<ul><li><p>1 - Requirements and Analysis: Requirements are gathered from
-stakeholders (client, users) and analysed. From this, the Software
-Requirement Specification document is produced outlining all funcional
-and non-functional requirements. The focus here is on understand what
-the system is supposed to do without going into details of
-implementation</p></li>
-<li><p>2 - System design: That stage creates the bluepring for bilding
-the system. It identifies the architecture, the components and their
-interaction but also focusing on the details of each components (data
-structure, databases, input/output).</p></li>
-<li><p>3 - Development: This is where the coding takes place. The
-developer will write the code based on the SPS and ensure that it meets
-requirements. It is often done by creating small building
+<figure><img src="fig/SLC.png" alt="Designing loop" class="figure mx-auto d-block"><div class="figcaption">Designing loop</div>
+</figure><ul><li><p>1 - <strong>Requirements and Analysis</strong>: Requirements are
+gathered from stakeholders (client, users) and analysed. From this, the
+Software Requirement Specification document is produced outlining all
+funcional and non-functional requirements. The focus here is on
+understand what the system is supposed to do without going into details
+of implementation</p></li>
+<li><p>2 - <strong>System design</strong>: That stage creates the
+bluepring for bilding the system. It identifies the architecture, the
+components and their interaction but also focusing on the details of
+each components (data structure, databases, input/output).</p></li>
+<li><p>3 - <strong>Development</strong>: This is where the coding takes
+place. The developer will write the code based on the SPS and ensure
+that it meets requirements. It is often done by creating small building
 blocks.</p></li>
-<li><p>4 - Integration and testing: Once the code is written, the
-individual block are integrated to a complete system and various testing
-are conducted (e.g. unit tests, integration tests).</p></li>
-<li><p>5 - Deplyoment: Once the software is fully tested and ready, it
-is eployed to the production environment or delivered to the client.
-This is at this stage that the software is available to
-end-users.</p></li>
-<li><p>6 - Maintenance: At this stage, the software enters the
-maintenance phase where it is monitored, updated and fixed if necessary.
-Corrective maintenance fixes bugs, while adaptive and perfective
-maintenance improve the software’s performance or add new
+<li><p>4 - <strong>Integration and testing</strong>: Once the code is
+written, the individual block are integrated to a complete system and
+various testing are conducted (e.g. unit tests, integration
+tests).</p></li>
+<li><p>5 - <strong>Deplyoment</strong>: Once the software is fully
+tested and ready, it is eployed to the production environment or
+delivered to the client. This is at this stage that the software is
+available to end-users.</p></li>
+<li><p>6 - <strong>Maintenance</strong>: At this stage, the software
+enters the maintenance phase where it is monitored, updated and fixed if
+necessary. Corrective maintenance fixes bugs, while adaptive and
+perfective maintenance improve the software’s performance or add new
 functionalities.</p></li>
 </ul><p>It is quite a rigid framework that does not really adapt well to
 changes. This framework is often called a waterfall model. Adapting such
