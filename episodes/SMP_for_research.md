@@ -19,28 +19,27 @@ exercises: 0
 
 ## Introduction
 
-A Software management plan [SMP] is a framework that outlines how software development, releases, maintenance, and support will be conducted throughout its lifecycle. It outlines how the key aspects like goals, ressources, milestone, risks, and quality are effectively controlled. The plan is usually created early in the project and is essential for both small and large projects to ensure clear communication and expectations among team members and stakeholders. In this chapter we present various point that you might want to think about when you start developing a code for research. The goal is that you ask yourself the right questions before embarking in an important software development journey. 
+A Software management plan [SMP] is a framework that outlines how software development, releases, maintenance, and support will be conducted throughout its lifecycle. It outlines how the key aspects like goals, ressources, milestone, risks, and quality are effectively controlled. The plan is usually created early in the project and is essential for both small and large projects to ensure clear communication and expectations among team members.  
 
-## Software management plan in academia
+In this chapter we present various point that you might want to think about when you start developing a code for research. The goal is that you ask yourself the right questions before embarking in an important software development journey. 
+
+## Software Management Plan
 
 Research is quite different from private sector. The goal of a research software is to answer a research question in a way that allows other people (and yourself) to carry it forward. Aligning the SMP to the research lifecyle ensure that the software not only facilitates scientific progress but also meets academics standards for collaboration, documentation and reproducibility.
 
 ### Project Overview
 
-This is the start of the project. You will not start a research software without having a research question you want to answer. Having a clear research question will greatly help you define your software. 
+You will not start a research software without having a research question you want to answer. Instead of business requirement that you would have a in traditional software lifecycle you should gather research objectives. Having a clear research question will greatly help you define your software. 
 
-Then what would you do? The answer is the same as for the research question: you look at what is already out there in the literature. If someone had already answered your research question then you would not try to answer it again. So if you want to build a software you will first look at what is already available. **DO NOT RE-INVENT THE WHEEL**. 
+Then what would you do? The answer is the same as for the research question: you look at what is already out there in the literature. If someone had already answered your research question then you would not try to answer it again. So for a research software you should do the same: you will first look at what is already available. The case where people are reimplemeting something that already exist is far too common and waste a lot of previous research time and founding. In short: **DO NOT RE-INVENT THE WHEEL**. If something is already available but does not have all the functionalities you are looking for then maybe you can build upon that previous work. If the code is open source, you might just be able to clone it and carry it forward (as long as you give credit to the original author). If it is not open source, you might be able to contact the P.I. and ask if you can have access to the source code (you might create new collaborations!). 
 
-If something similar exists then don't recode it! If something is already available but does not have all the functionalities you are looking for then maybe you can build upon that previous work. If the code is open source, you might just be able to clone it and carry it forward. If it is not, you might be able to contact the P.I. and ask if you can have access to the source code (you might create new collaborations!). 
+If you still want to create something from scratch while something already exists, always ask yourself: what would make people use my solution instead of the one that is already available? What addition does my software bring to the research community?
 
-If you still want to create something from scratch while something already exists, always ask yourself: what would make people use my solution intead of the one that is already available? What addition does my software bring to the research community?
-
-Finally, what do you expect to produce? What is the end product?  What output will it create? How will I make people engage with it?  All these questions are important!
+When you have a good sense of what you want to create you must define what will be the data that will be used and output of the tool.
 
 ### Human and Technical ressouces
 
 Once you have a good idea of what you want to create, the next step is to identify who is in charge of it. Identify team members (P.I, RSE, Postdocs, PhD students) and their roles in the development of the tool. It is often useful to extend these distribution of roles to other aspects of the project, such as data management & publication (it is important that everybody gets credit for their work and **can evidence it**). Doing this before you start you will identify what are the skills available in your team and what are the missing ones, hence identifying the needs for training. Discussing these aspects beforehand will make you save time and potentialy avoid some painful discussions (and frustrations) down the line. 
-
 
 One crucial aspect of a software project, especially occuring in research, is the problem of the bus factor. Simply put the bus factor is a number equal to the amount of people in your project that could get it by a bus without putting your project in trouble. The worst bus factor is 1 and means a single person is in charge of everything. If you lose that person that project stops. Trying to mitigate this bus factor is crucial, and sometimes very hard to do. You might want to have different people aware of the code(through peer code review in the team), and what will be very important is to have a very clean and up-to-date documentation (the lecture on [Documentation] might help you do that). 
 
@@ -78,7 +77,7 @@ One important aspect of research it is that it is hard to plan. So how will you 
 *Wouldn’t it be sad that all the work you have been putting in your software development is wasted by a typo in the code?* How do you make sure that the code you are writing is doing things as it is intended to be done? And that the scientific results your producing are reliable and reproducible?  
 
 Develop strategies to ensure both code quality and research reproducibility:
-* The code quality can be achieved by doing code peer reviews. Regular peer review are very helpful both for increasing the quality and for disseminating knowledge in the team (reducing the bus factor). Automated testing with continuous integration (You can find a lecture on [testing] and continuous integration in the program), version control ([Git-beginners] & [Git-collaboration]), etc… 
+* The code quality can be checked by doing code peer reviews. Regular peer review are very helpful both for increasing the quality and for disseminating knowledge in the team (reducing the bus factor). Automated testing with continuous integration (You can find a lecture on [testing] and continuous integration in the program), version control ([Git-beginners] & [Git-collaboration]), etc… 
 
 * Research reproducibility will also benefit from all of the previous suggestions, but you can add data version control (DVC) that will help track the state of your data and changes, parametrisation of code ensures that it can be rerun with different parameters easily (without changing the code) via configuration files or command line interface (follow the lecture on [Design] for these aspects). Testing by other people also helps. If someone else in your team can reproduce your results it will give you a good idea of how reproducible are your results. Finally, and for a more advanced case, it is possible to fully automatise reproducibility checks.  
 

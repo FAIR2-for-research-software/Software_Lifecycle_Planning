@@ -30,6 +30,8 @@ Research Software includes source code files, algorithms, scripts, computational
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+## Reminder: The FAIR principles applied to research software
+
 ## The software lifecyle
 
 A traditional software lifecycle (in a non-academic setup) involved the following phases:
@@ -48,10 +50,4 @@ A traditional software lifecycle (in a non-academic setup) involved the followin
 
 * 6 - **Maintenance**: At this stage, the software enters the maintenance phase where it is monitored, updated and fixed if necessary. Corrective maintenance fixes bugs, while adaptive and perfective maintenance improve the software's performance or add new functionalities. 
 
-It is quite a rigid framework that does not really adapt well to changes. This framework is often called a waterfall model. Adapting such a framework to research software is possible. Let's see how we can adapt it:
-
-
-## The FAIR principles applied to research software
-
-
-
+It is quite a rigid framework that does not really adapt well to changes. This framework is often called a waterfall model. Nevertheless it is possible to adapt it to research the academic framework. That what we will see in the software management plan in the next chapter. 
