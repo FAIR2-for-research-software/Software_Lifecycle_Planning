@@ -77,7 +77,9 @@ One important aspect of research it is that it is hard to plan. So how will you 
 
 Develop strategies to ensure both code quality and research reproducibility:
 * The code quality can be achieved by doing code peer reviews. Regular peer review are very helpful both for increasing the quality and for disseminating knowledge in the team (reducing the bus factor). Automated testing with continuous integration (You can find a lecture on [testing] and continuous integration in the program), version control ([Git-beginners] & [Git-collaboration]), etc… 
+
 * Research reproducibility will also benefit from all of the previous suggestions, but you can add data version control (DVC) that will help track the state of your data and changes, parametrisation of code ensures that it can be rerun with different parameters easily (without changing the code) via configuration files or command line interface (follow the lecture on [Design] for these aspects). Testing by other people also helps. If someone else in your team can reproduce your results it will give you a good idea of how reproducible are your results. Finally, and for a more advanced case, it is possible to fully automatise reproducibility checks.  
+
 * Reliability of science results can be tested by comparing your code with exsiting datasets. Can you replicate exiting results with your own tool? That will give you an interesting insight. 
 
 
