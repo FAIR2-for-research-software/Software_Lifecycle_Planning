@@ -67,7 +67,7 @@ In addition, it is important to coordinate this timeline with research milestone
 
 Once identified, you should think how to mitigate these risks and create a contingency plan (a plan B) in case they turn out to be real problems (e.g., backup strategies for data and code, alternative methods).
 
-One important aspect of research it is that it is hard to plan. So how will you address changes in the research hypothesis, data, or experimental design and how might that impact the software. Ensure proper version control for both code and datasets and allow for flexibility for exploratory research where new insights might lead to changes in the software. This gets much easier when the code is written in a maintainable and readable way **(cf lecture on code design by R. Thoma, [add link to lecture, TBD]).
+One important aspect of research it is that it is hard to plan. So how will you address changes in the research hypothesis, data, or experimental design and how might that impact the software. Ensure proper version control for both code and datasets and allow for flexibility for exploratory research where new insights might lead to changes in the software. This gets much easier when the code is written in a maintainable and readable way (Program lectures on this topic [Design]).
 
 
 ### Quality Assurance
