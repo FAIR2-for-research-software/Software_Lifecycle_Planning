@@ -15,7 +15,8 @@ exercises: 2
 ::::::::::::::::::::::::::::::::::::: objectives
 
 - Understand the definition of software in research.
-- Get to know the software lifecycle and how it applies to research software.
+- Understand the FAIR principles applied to research software.
+- Get to know (briefly) the software lifecycle.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -31,6 +32,21 @@ Research Software includes source code files, algorithms, scripts, computational
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Reminder: The FAIR principles applied to research software
+
+The FAIR principles (Findable, Accessible, Interoperable and Reusable) where originally designed for research data in order to "enhance their reusability" (see this [Nature](https://www.nature.com/articles/sdata201618) paper). In that seminal paper, it was made clear that while data was a central aspect of research, the principles should also apply to algorithms, tools and workflows that led to the production of that data. Few years later, in 2022, a set of recommendation was published (see [here](https://zenodo.org/records/6623556#.YqCJTJNBwlw)) in order to apply these FAIR principle to research software. This are the FAIR principles adapter to research software:
+
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+* Findable: Software, and its associated metadata, is easy for both humans and machines to find 
+
+* Accessible: Software, and its metadata, is retrievable via standardised protocols
+ 
+* Interoperable: Software interoperates with other software by exchanging data and/or metadata, and/or through interaction via application programming interfaces (APIs), described through standards
+
+* Reusable: Software is both usable (can be executed) and reusable (can be understood, modified, built upon, or incorporated into other software)
+
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## The software lifecyle
 
