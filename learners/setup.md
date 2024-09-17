@@ -17,6 +17,6 @@ Then we will discuss two important aspects of software development in the contex
 * **Dissemination**: While putting your software online certainly helps it satisfy the FAIR principles, simply doing so might not be enough for other researchers to actually find and utilise what you’ve put out there. It’s important to know the benefits and issues with where you store and publish your data, and to make the most of the tools these platforms provide, such as Digital Object Identifiers (DOIs). It’s also important to know best practice for how to increase the visibility and citability of your work in cases where your chosen platform lacks these features. We will introduce and explore worked examples of elements that you should consider when publishing your software, which will help you easily reference your work, and also help make it more findable and reusable by others.
 
 
-## Target audience:
+## Target audience
 This course is aimed at researchers, including postgraduate researchers, who write software (whether a few scripts or something more substantial) as part of their research and wish to bring open research best practice to their project or team.
 Outline
