@@ -87,13 +87,13 @@ Dissemination is a cornerstone of research. When it comes to research software y
 
 * License: This is probably one of the most basic item of the software management plan. If there is no license in your software people won't know if they have the right to re-use your software. No license means that you retain all the rights to your source code and no one may reproduce, distribute or create derivative works from your code (which is the opposite of research philosophy). Please see the chapter on intellectual property and software licenses for more details **[link TBD]**.
 
-* Documentation is paramount: And guess what, the main group that it will help is YOUR TEAM! Research projects often span several years with people coming in and some leaving the team. If it takes someone 6 months just to understand the software that the team is developing it is going to be a waste of time. If you want a sustainable project, write a good documentation. In addition, If you produce a software with a good documentation it will be more likely used by the community and then you might get credit for it! You should make sure that the documentation is easily accessible (e.g. a website) and tailored to future researchers and the academic community in your research domain (cf Documentation module with Joe Heffer **[link TBD]**). Document how the software works, but not only this. Always describe how it serves a research question. 
+* Documentation is paramount: And guess what, the main group that it will help is YOUR TEAM! Research projects often span several years with people coming in and some leaving the team. If it takes someone 6 months just to understand the software that the team is developing it is going to be a waste of time. If you want a sustainable project, write a good documentation. In addition, If you produce a software with a good documentation it will be more likely used by the community and then you might get credit for it! You should make sure that the documentation is easily accessible (e.g. a website) and tailored to future researchers and the academic community in your research domain (Lecture on [Documentation] is available in the program). Document how the software works, but not only this. Always describe how it serves a research question. 
 
 * Software repositories: It is important to place your software (the released version) to a place where people can download it freely. Collaborative development platform such as github are not made to store software on the long term. Nevertheless, other platform are made for this (e.g. figshare, zenodo, etc..). This is where you should look for a long term storage. Please see chapter on dissemination for more details **[Link TBD]**.
 
 To go a little bit further, you might want to take extra step in the dissemination direction:
 
-* Publication: Once you release your software, you might want to publish it! Numerous journals accept papera about research software. Some are generalists (e.g. JOSS, JORS, SoftwareX, etc **[add links]**) and some are domain oriented **[add link TBD]**. This is really something you should consider! It will give you a lot of visibility and allow you to get a citable paper associated to your software [**link to JOSS lecture**].
+* Publication: Once you release your software, you might want to publish it! Numerous journals accept papera about research software. Some are generalists (e.g. JOSS, JORS, SoftwareX, etc) and some are domain oriented (you can get a non exhaustive list [here](https://www.software.ac.uk/top-tip/which-journals-should-i-publish-my-software)). This is really something you should consider! It will give you a lot of visibility and allow you to get a citable paper associated to your software (you can follow the lecture on [Publishing your software] for this).
 
 * Training: If your software sees a lot of buy-in in the community and that is relatively complex to use (not all software are), you might want to train others to use it. You can do that via tutorials or training events. This is a very powerful way to give your work more visibility and a very efficient way to create collaborations!
 
@@ -102,9 +102,8 @@ To go a little bit further, you might want to take extra step in the disseminati
 ### Long term sustainability
 Maintenance of the software is tricky. We can distinguish two parts: 
 - The software is in a final form, but the founding is still there: In that case it is important to identify who is in charge of the maintenance and update. You might work with totally different people than at the beginning of the project. So it is important to plan this ahead (cf previous section). A good documentation will always help the maintenance.
-- The research project comes to an end (and with it, its founding). That’s the tricky situation, long term maintenance is difficult because founders do not plan for this (which happens everywhere).  If you want to increase the chance that your software work in 5 or 10 years, what you could envisage to do is to distribute your software with its own computational environment. This ships your software with the required dependencies and put all this in its own bubble.  If you are interested to learn more about this, register to the lecture on reproducible Computational environment, by Daniel Brady **[Link TBD]**.
+- The research project comes to an end (and with it, its founding). That’s the tricky situation, long term maintenance is difficult because founders do not plan for this (which happens everywhere).  If you want to increase the chance that your software work in 5 or 10 years, what you could envisage to do is to distribute your software with its own computational environment. This ships your software with the required dependencies and put all this in its own bubble.  If you are interested to learn more about this, register to the lecture on [Reproducible Computational Environment].
 
-In general, making a software open-source, will increase the chance that other people can increase its lifetime beyond your own involvement! (Cf section on Software Licence)
 
 ## Minimal version
 
@@ -113,8 +112,8 @@ Everything that has been described previously can be quite intimidating at first
 * Information on what software outputs (including documentation and other related material) are expected to be produced ; 
 * Who is responsible for the development work?;
 * The version control process to be used;
-* What license will be used for each output?
+* What license will be used for each produced piece of code/data?
 
-These four items should be mandatory for each software created in academia. 
+These four items should be on your list in the planning phase. 
 
 
