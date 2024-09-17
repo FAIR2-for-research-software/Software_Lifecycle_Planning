@@ -352,7 +352,9 @@ disciplines.</p>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="the-software-lifecyle">The software lifecyle<a class="anchor" aria-label="anchor" href="#the-software-lifecyle"></a>
+</section><section><h2 class="section-heading" id="reminder-the-fair-principles-applied-to-research-software">Reminder: The FAIR principles applied to research software<a class="anchor" aria-label="anchor" href="#reminder-the-fair-principles-applied-to-research-software"></a>
+</h2>
+<hr class="half-width"></section><section><h2 class="section-heading" id="the-software-lifecyle">The software lifecyle<a class="anchor" aria-label="anchor" href="#the-software-lifecyle"></a>
 </h2>
 <hr class="half-width">
 <p>A traditional software lifecycle (in a non-academic setup) involved
@@ -388,16 +390,14 @@ perfective maintenance improve the software’s performance or add new
 functionalities.</p></li>
 </ul>
 <p>It is quite a rigid framework that does not really adapt well to
-changes. This framework is often called a waterfall model. Adapting such
-a framework to research software is possible. Let’s see how we can adapt
-it:</p>
-</section><section><h2 class="section-heading" id="the-fair-principles-applied-to-research-software">The FAIR principles applied to research software<a class="anchor" aria-label="anchor" href="#the-fair-principles-applied-to-research-software"></a>
-</h2>
-<hr class="half-width">
+changes. This framework is often called a waterfall model. Nevertheless
+it is possible to adapt it to research the academic framework. That what
+we will see in the software management plan in the next chapter.</p>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
- --></section></section><section id="aio-SMP_for_research"><p>Content from <a href="SMP_for_research.html">Software Managagement plan: Planning ahead</a></p>
+ -->
+</section></section><section id="aio-SMP_for_research"><p>Content from <a href="SMP_for_research.html">Software Managagement plan: Planning ahead</a></p>
 <hr>
 <p>Last updated on 2024-09-17 |
 
@@ -443,12 +443,12 @@ conducted throughout its lifecycle. It outlines how the key aspects like
 goals, ressources, milestone, risks, and quality are effectively
 controlled. The plan is usually created early in the project and is
 essential for both small and large projects to ensure clear
-communication and expectations among team members and stakeholders. In
-this chapter we present various point that you might want to think about
-when you start developing a code for research. The goal is that you ask
-yourself the right questions before embarking in an important software
-development journey.</p>
-</section><section><h2 class="section-heading" id="software-management-plan-in-academia">Software management plan in academia<a class="anchor" aria-label="anchor" href="#software-management-plan-in-academia"></a>
+communication and expectations among team members.</p>
+<p>In this chapter we present various point that you might want to think
+about when you start developing a code for research. The goal is that
+you ask yourself the right questions before embarking in an important
+software development journey.</p>
+</section><section><h2 class="section-heading" id="software-management-plan">Software Management Plan<a class="anchor" aria-label="anchor" href="#software-management-plan"></a>
 </h2>
 <hr class="half-width">
 <p>Research is quite different from private sector. The goal of a
@@ -460,29 +460,31 @@ collaboration, documentation and reproducibility.</p>
 <div class="section level3">
 <h3 id="project-overview">Project Overview<a class="anchor" aria-label="anchor" href="#project-overview"></a>
 </h3>
-<p>This is the start of the project. You will not start a research
-software without having a research question you want to answer. Having a
-clear research question will greatly help you define your software.</p>
+<p>You will not start a research software without having a research
+question you want to answer. Instead of business requirement that you
+would have a in traditional software lifecycle you should gather
+research objectives. Having a clear research question will greatly help
+you define your software.</p>
 <p>Then what would you do? The answer is the same as for the research
 question: you look at what is already out there in the literature. If
 someone had already answered your research question then you would not
-try to answer it again. So if you want to build a software you will
-first look at what is already available. <strong>DO NOT RE-INVENT THE
-WHEEL</strong>.</p>
-<p>If something similar exists then don’t recode it! If something is
-already available but does not have all the functionalities you are
-looking for then maybe you can build upon that previous work. If the
-code is open source, you might just be able to clone it and carry it
-forward. If it is not, you might be able to contact the P.I. and ask if
-you can have access to the source code (you might create new
-collaborations!).</p>
+try to answer it again. So for a research software you should do the
+same: you will first look at what is already available. The case where
+people are reimplemeting something that already exist is far too common
+and waste a lot of previous research time and founding. In short:
+<strong>DO NOT RE-INVENT THE WHEEL</strong>. If something is already
+available but does not have all the functionalities you are looking for
+then maybe you can build upon that previous work. If the code is open
+source, you might just be able to clone it and carry it forward (as long
+as you give credit to the original author). If it is not open source,
+you might be able to contact the P.I. and ask if you can have access to
+the source code (you might create new collaborations!).</p>
 <p>If you still want to create something from scratch while something
 already exists, always ask yourself: what would make people use my
-solution intead of the one that is already available? What addition does
-my software bring to the research community?</p>
-<p>Finally, what do you expect to produce? What is the end product? What
-output will it create? How will I make people engage with it? All these
-questions are important!</p>
+solution instead of the one that is already available? What addition
+does my software bring to the research community?</p>
+<p>When you have a good sense of what you want to create you must define
+what will be the data that will be used and output of the tool.</p>
 </div>
 <div class="section level3">
 <h3 id="human-and-technical-ressouces">Human and Technical ressouces<a class="anchor" aria-label="anchor" href="#human-and-technical-ressouces"></a>
@@ -606,7 +608,7 @@ you make sure that the code you are writing is doing things as it is
 intended to be done? And that the scientific results your producing are
 reliable and reproducible?</p>
 <p>Develop strategies to ensure both code quality and research
-reproducibility: * The code quality can be achieved by doing code peer
+reproducibility: * The code quality can be checked by doing code peer
 reviews. Regular peer review are very helpful both for increasing the
 quality and for disseminating knowledge in the team (reducing the bus
 factor). Automated testing with continuous integration (You can find a
