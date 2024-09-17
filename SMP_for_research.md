@@ -53,7 +53,7 @@ How will you develop your code? Multiple ways exist to manage the development of
 
 Whatever method of project management you choose, ensure that it is fostering collaboration within the group. Research is an iterative provess involving a lot of trials/errors cycle and experimentations. Communication will be a key aspect of success. It might be interesting to have short development cycles with an iterative approach. This will help you analyse intermediary research outcomes, review the development of the software (and documentation) and overall progress. It is not rare that while developing a research tool with a clear goal in mind you end up finding serendipitous results that are worth a publication! 
 
-In addition, what tools are you using for software development? Do not end up with multiple files for the multiple version of your software (e.g. version1, version 1_1, version1_2, version1_final, version1_final2, etccc). It will become unmanageable. To avoid such a situation, it is important to have a version control tool that allows you to track the changes that you implement in your software (Program lectures on this topic: [Git_newbies] & [Git-collab].
+In addition, what tools are you using for software development? Do not end up with multiple files for the multiple version of your software (e.g. version1, version 1_1, version1_2, version1_final, version1_final2, etccc). It will become unmanageable. To avoid such a situation, it is important to have a version control tool that allows you to track the changes that you implement in your software (Program lectures on this topic: [Git-beginners] & [Git-collab].
 
 ### Timeline and Milestones
 
@@ -67,7 +67,7 @@ In addition, it is important to coordinate this timeline with research milestone
 
 Once identified, you should think how to mitigate these risks and create a contingency plan (a plan B) in case they turn out to be real problems (e.g., backup strategies for data and code, alternative methods).
 
-One important aspect of research it is that it is hard to plan. So how will you address changes in the research hypothesis, data, or experimental design and how might that impact the software. Ensure proper version control for both code and datasets and allow for flexibility for exploratory research where new insights might lead to changes in the software. This gets much easier when the code is written in a maintainable and readable way (Program lectures on this topic [Design]).
+One important aspect of research it is that it is hard to plan. So how will you address changes in the research hypothesis, data, or experimental design and how might that impact the software. Ensure proper version control for both code and datasets and allow for flexibility for exploratory research where new insights might lead to changes in the software. This gets much easier when the code is written in a maintainable and readable way (The lecture on [Design your code] might be helpful for this).
 
 
 ### Quality Assurance
