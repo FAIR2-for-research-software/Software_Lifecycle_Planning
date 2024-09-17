@@ -13,3 +13,4 @@ any links that you are not going to use.
 [Design your code]:https://mydevelopment.csod.com/ui/lms-learning-details/app/event/d3c2cca5-d894-44b6-a79b-e93dea7a7c94
 [Repro]: https://mydevelopment.csod.com/ui/lms-learning-details/app/event/e30c407d-c97d-44a0-b3fd-4e87f95c4789
 [publish]: https://mydevelopment.csod.com/ui/lms-learning-details/app/event/bbbf3532-826c-4440-bb01-06a929d3b5ec
+[Documentation]: https://mydevelopment.csod.com/ui/lms-learning-details/app/event/7c81f9fd-656f-4ae9-ba48-bc83afe81cc2
