@@ -34,7 +34,7 @@ Research Software includes source code files, algorithms, scripts, computational
 
 A traditional software lifecycle (in a non-academic setup) involved the following phases:
 
-![Traditional Software Lifecyle](fig/SLC.png =200x200)
+![Traditional Software Lifecyle](fig/SLC.png){ width=50% }
 
 * 1 - **Requirements and Analysis**: Requirements are gathered from stakeholders (client, users) and analysed. From this, the Software Requirement Specification document is produced outlining all funcional and non-functional requirements. The focus here is on understand what the system is supposed to do without going into details of implementation
 
