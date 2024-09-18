@@ -4,123 +4,233 @@ teaching: 10
 exercises: 0
 ---
 
-:::::::::::::::::::::::::::::::::::::: questions 
+:::::::::::::::::::::::::::::::::::::: questions
 
 - What should you ask yourself before starting a software project?
+- How do I write a Software Management Plan?
+- How do I disseminate my work and make it findable?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Understand what are the main points of a software management plan.
-- What are they main question you should ask yourself before diving into the coding part.
+- Understand the main points of a software management plan.
+- What are the main questions you should ask yourself before diving into the coding part.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Introduction
 
-A Software management plan [SMP] is a framework that outlines how software development, releases, maintenance, and support will be conducted throughout its lifecycle. It outlines how the key aspects like goals, ressources, milestone, risks, and quality are effectively controlled. The plan is usually created early in the project and is essential for both small and large projects to ensure clear communication and expectations among team members.  
+A Software Management Plan [SMP] is a framework that outlines how software development, releases, maintenance, and
+support will be conducted throughout its lifecycle. It outlines how the key aspects like goals, ressources, milestone,
+risks, and quality are effectively controlled. The plan is usually created early in the project and is essential for
+both small and large projects to ensure clear communication and expectations among team members.
 
-In this chapter we present various point that you might want to think about when you start developing a code for research. The goal is that you ask yourself the right questions before embarking in an important software development journey. 
+In this chapter we present various point that you might want to think about when you start developing a code for
+research. The goal is that you ask yourself the right questions before embarking in an important software development
+journey.
 
 ## Software Management Plan
 
-Research is quite different from private sector. The goal of a research software is to answer a research question in a way that allows other people (and yourself) to carry it forward. Aligning the SMP to the research lifecyle ensure that the software not only facilitates scientific progress but also meets academics standards for collaboration, documentation and reproducibility.
+Research is quite different from private sector. The goal of a research software is to answer a research question in a
+way that allows other people (and yourself) to carry it forward. Aligning the SMP to the research lifecyle ensure that
+the software not only facilitates scientific progress but also meets academics standards for collaboration,
+documentation and reproducibility.
 
 ### Project Overview
 
-You will not start a research software without having a research question you want to answer. Instead of business requirement that you would have a in traditional software lifecycle you should gather research objectives. Having a clear research question will greatly help you define your software. 
+You will not start a research software without having a research question you want to answer. Instead of business
+requirement that you would have a in traditional software lifecycle you should gather research objectives. Having a
+clear research question will greatly help you define your software.
 
-Then what would you do? The answer is the same as for the research question: you look at what is already out there in the literature. If someone had already answered your research question then you would not try to answer it again. So for a research software you should do the same: you will first look at what is already available. The case where people are reimplemeting something that already exist is far too common and waste a lot of previous research time and founding. In short: **DO NOT RE-INVENT THE WHEEL**. If something is already available but does not have all the functionalities you are looking for then maybe you can build upon that previous work. If the code is open source, you might just be able to clone it and carry it forward (as long as you give credit to the original author). If it is not open source, you might be able to contact the P.I. and ask if you can have access to the source code (you might create new collaborations!). 
+Then what would you do? The answer is the same as for the research question: you look at what is already out there in
+the literature. If someone had already answered your research question then you would not try to answer it again. So for
+a research software you should do the same: you will first look at what is already available. The case where people are
+reimplemeting something that already exist is far too common and waste a lot of previous research time and founding. In
+short: **DO NOT RE-INVENT THE WHEEL**. If something is already available but does not have all the functionalities you
+are looking for then maybe you can build upon that previous work. If the code is open source, you might just be able to
+clone it and carry it forward (as long as you give credit to the original author). Alternatively you may be able to
+contribute features up-stream to the package you wish to use. If it is not open source, you might
+be able to contact the author and ask if you can have access to the source code (you might create new collaborations!).
 
-If you still want to create something from scratch while something already exists, always ask yourself: what would make people use my solution instead of the one that is already available? What addition does my software bring to the research community?
+If you still want to create something from scratch when something already exists, always ask yourself: what would make
+people use my solution instead of the one that is already available? What benefits will my software bring to the
+research community?
 
 
-When you have a good sense of what you want to create you must define what will be the data that will be used and output of the tool. It often happens that for a given domain some data standard are in use. Try to stick to these standards as much as you can and you will make your software more **interoperable** with other systems and **reusable** by others.
+When you have a good sense of what you want to create you must define what will be the data that will be used and output
+of the tool. It often happens that for a given domain some data standard are in use. Try to stick to these standards as
+much as you can and you will make your software more **interoperable** with other systems and **reusable** by others.
 
 ### Human and Technical ressouces
 
-Once you have a good idea of what you want to create, the next step is to identify who is in charge of it. Identify team members (P.I, RSE, Postdocs, PhD students) and their roles in the development of the tool. It is often useful to extend these distribution of roles to other aspects of the project, such as data management & publication (it is important that everybody gets credit for their work and **can evidence it**). Doing this before you start you will identify what are the skills available in your team and what are the missing ones, hence identifying the needs for training. Discussing these aspects beforehand will make you save time and potentialy avoid some painful discussions (and frustrations) down the line. 
+Once you have a good idea of what you want to create, the next step is to identify who is in charge of it. Identify team
+members (P.I, RSE, Postdocs, PhD students) and their roles in the development of the tool. It is often useful to extend
+these distribution of roles to other aspects of the project, such as data management & publication (it is important that
+everybody gets credit for their work and **can evidence it**). Doing this before you start you will identify what are
+the skills available in your team and what are the missing ones, hence identifying the needs for training. Discussing
+these aspects beforehand will make you save time and potentialy avoid some painful discussions (and frustrations) down
+the line.
 
-One crucial aspect of a software project, especially occuring in research, is the problem of the bus factor. Simply put the bus factor is a number equal to the amount of people in your project that could get it by a bus without putting your project in trouble. The worst bus factor is 1 and means a single person is in charge of everything. If you lose that person that project stops. Trying to mitigate this bus factor is crucial, and sometimes very hard to do. You might want to have different people aware of the code(through peer code review in the team), and what will be very important is to have a very clean and up-to-date documentation (the lecture on [Documentation] might help you do that). 
+One crucial aspect of a software project, especially occuring in research, is the problem of the bus factor. Simply put
+the bus factor is a number equal to the amount of people in your project that could get it by a bus without putting your
+project in trouble. The worst bus factor is 1 and means a single person is in charge of everything. If you lose that
+person that project stops. Trying to mitigate this bus factor is crucial, and sometimes very hard to do. You might want
+to have different people aware of the code(through peer code review in the team), and what will be very important is to
+have a very clean and up-to-date documentation (the lecture on [Documentation] might help you do that).
 
-On the technical side, it is important to identify technical resources, e.g. computing environement, High Performance Computing platform, that might be available. You might not see their need at first, but as the development goes on, if you know what support you can get from your own institution it is always interesting to know where and how accessible they are (some might need financing that you need to plan in advance!). 
+On the technical side, it is important to identify technical resources, e.g. computing environement, High Performance
+Computing platform, that might be available. You might not see their need at first, but as the development goes on, if
+you know what support you can get from your own institution it is always interesting to know where and how accessible
+they are (some might need financing that you need to plan in advance!).
 
 ### Development Approach
 
 How will you develop your code? Multiple ways exist to manage the development of a software, we can name two here:
 
-* Waterfall: This approach is a linear and sequential project management technique where each phase depends on the completion of the previous one. It consists of stages like requirements gathering, design, implementation, testing, deployment, and maintenance. Progress flows in one direction, similar to a waterfall. Changes are difficult to implement once a phase is completed. It is best suited for projects with well-defined requirements and minimal expected changes.
+- [Waterfall][waterfall]: This approach is a linear and sequential project management technique where each phase depends on the
+  completion of the previous one. It consists of stages like requirements gathering, design, implementation, testing,
+  deployment, and maintenance. Progress flows in one direction, similar to a waterfall. Changes are difficult to
+  implement once a phase is completed. It is best suited for projects with well-defined requirements and minimal
+  expected changes.
 
-* Agile: This approach is an iterative and flexible project management technique focused on delivering small, incremental improvements. It encourages collaboration between cross-functional teams, frequent feedback, and continuous adaptation to changes. Work is divided into short cycles called sprints, with regular reviews to assess progress. Agile prioritizes customer satisfaction through early and continuous delivery. It is best suited for dynamic projects with evolving requirements.
+- [Agile][agile]: This approach is an iterative and flexible project management technique focused on delivering small,
+  incremental improvements. It encourages collaboration between cross-functional teams, frequent feedback, and
+  continuous adaptation to changes. Work is divided into short cycles called sprints, with regular reviews to assess
+  progress. Agile prioritizes customer satisfaction through early and continuous delivery. It is best suited for dynamic
+  projects with evolving requirements.
 
-Whatever method of project management you choose, ensure that it is fostering collaboration within the group. Both have their advantages but keep in mind that research is an iterative provess involving a lot of trials/errors cycle and experimentations. Communication will be a key aspect of success. It might be interesting to have short development cycles with an iterative approach (hence an Agile style might be more suitable). This will help you analyse intermediary research outcomes, review the development of the software (and documentation) and overall progress. It is not rare that while developing a research tool with a clear goal in mind you end up finding serendipitous results that are worth a publication! 
+Whatever method of project management you choose, ensure that it is fostering collaboration within the group. Both have
+their advantages but keep in mind that research is an iterative provess involving a lot of trials/errors cycle and
+experimentations. Communication will be a key aspect of success. It might be interesting to have short development
+cycles with an iterative approach (hence an Agile style might be more suitable). This will help you analyse intermediary
+research outcomes, review the development of the software (and documentation) and overall progress. It is not rare that
+while developing a research tool with a clear goal in mind you end up finding serendipitous results that are worth a
+publication!
 
-In addition, what tools are you using for software development? Do not end up with multiple files for the multiple version of your software (e.g. version1, version 1_1, version1_2, version1_final, version1_final2, etccc). It will become unmanageable. To avoid such a situation, it is important to have a version control tool that allows you to track the changes that you implement in your software. Some lectures on this program could help with this: [Git-beginners] & [Git-collaboration]. Using version control will help making your software more **FAIR** (all letters!).
+In addition, what tools are you using for software development? Do not end up with multiple files for the multiple
+version of your software (e.g. version1, version 1_1, version1_2, version1_final, version1_final2, etccc). It will
+become unmanageable. To avoid such a situation, it is important to have a version control tool that allows you to track
+the changes that you implement in your software. Some lectures on this program could help with this: [Git-beginners] &
+[Git-collaboration]. Using version control will help making your software more **FAIR** (all letters!).
 
 
 ### Timeline and Milestones
 
-Creating a software is not easy. The bigger it gets, the more complicated it becomes. Hence it is important to have checkpoints, or milestones, that you can work toward. It is often possible to split the development of a research into multiple intermediary states. These intermediary states will give you more realistic and achievable objectives and allow you to track the work. This will create your development timeline. 
+Creating a software is not easy. The bigger it gets, the more complicated it becomes. Hence it is important to have
+checkpoints, or milestones, that you can work toward. It is often possible to split the development of a research into
+multiple intermediary states. These intermediary states will give you more realistic and achievable objectives and allow
+you to track the work. This will create your development timeline.
 
-In addition, it is important to coordinate this timeline with research milestones and deadlines. They can be paper submissions, conference presentations, funding milestones, PhD thesis milestones. Software development and research progress should be as aligned as possible and tracked concurently. If they diverge you will be in trouble.  
+In addition, it is important to coordinate this timeline with research milestones and deadlines. They can be paper submissions, conference presentations, funding milestones, PhD thesis milestones. Software development and research progress should be as aligned as possible and tracked concurently. If they diverge you will be in trouble.
 
 ### Risk Management
 
-**Spoiler alert: nothing will work from the first try!** You will find blockades on the way and some can be identified beforehand. Failure to achieve scientific outcomes, data issues (sometimes data will never come!), reproducibility failures, or tool/library obsolescence are example of such risks.
+**Spoiler alert: nothing will work from the first try!** You will inevitably encounter blockers which hinder progress
+during the development of your software and only some of these will be identifiable beforehand. Failure to achieve
+scientific outcomes, data issues (sometimes data will never come!), reproducibility failures, or tool/library
+obsolescence are example of such risks.
 
-Once identified, you should think how to mitigate these risks and create a contingency plan (a plan B) in case they turn out to be real problems (e.g., backup strategies for data and code, alternative methods).
+Once identified, you should think about how to mitigate these risks and create a contingency plan (a plan B) in case
+they turn out to be real problems (e.g., backup strategies for data and code, alternative methods).
 
-One important aspect of research it is that it is hard to plan. So how will you address changes in the research hypothesis, data, or experimental design and how might that impact the software. Ensure proper version control for both code and datasets and allow for flexibility for exploratory research where new insights might lead to changes in the software. This gets much easier when the code is written in a maintainable, readable and **Reusable** way (The lecture on [Design your code] might be helpful for this).
+One important aspect of research it is that it is hard to plan. So how will you address changes in the research
+hypothesis, data, or experimental design and how might that impact the software. Ensure proper version control for both
+code and datasets and allow for flexibility for exploratory research where new insights might lead to changes in the
+software. This gets much easier when the code is written in a maintainable, readable and **Reusable** way (The lecture
+on [Design your code] might be helpful for this).
 
 
 ### Quality Assurance
 
-*Wouldn’t it be sad that all the work you have been putting in your software development is wasted by a typo in the code?* How do you make sure that the code you are writing is doing things as it is intended to be done? And that the scientific results your producing are reliable and reproducible?  
+Wouldn’t it be sad that all the work you have been putting in your software development is wasted by a typo in the code?
+How do you make sure that the code you are writing is doing things as it is intended to be done? And that the scientific
+results your producing are reliable and reproducible?
 
 Develop strategies to ensure both code quality and research reproducibility:
-* The code quality can be checked by doing code peer reviews. Regular peer review are very helpful both for increasing the quality and for disseminating knowledge in the team (reducing the bus factor). Automated testing with continuous integration (You can find a lecture on [testing] and continuous integration in the program), version control ([Git-beginners] & [Git-collaboration]), etc… 
 
-* Research reproducibility will also benefit from all of the previous suggestions, but you can add data version control (DVC) that will help track the state of your data and changes, parametrisation of code ensures that it can be rerun with different parameters easily (without changing the code) via configuration files or command line interface (follow the lecture on [Design] for these aspects). Testing by other people also helps. If someone else in your team can reproduce your results it will give you a good idea of how reproducible are your results. Finally, and for a more advanced case, it is possible to fully automatise reproducibility checks.  
+- The code quality can be checked by doing code peer reviews. Regular peer review are very helpful both for increasing
+  the quality and for disseminating knowledge in the team (reducing the bus factor). Automated testing with continuous
+  integration (You can find a lecture on [testing] and continuous integration in the program), version control
+  ([Git-beginners][gitzerohero] & [Git-collaboration][gitcollaboration]), etc…
 
-* Reliability of science results can be tested by comparing your code with exsiting datasets. Can you replicate exiting results with your own tool? That will give you an interesting insight. 
+- Research reproducibility will also benefit from all of the previous suggestions, but you can add data version control (DVC) that will help track the state of your data and changes, parametrisation of code ensures that it can be rerun with different parameters easily (without changing the code) via configuration files or command line interface (follow the lecture on [Design] for these aspects). Testing by other people also helps. If someone else in your team can reproduce your results it will give you a good idea of how reproducible are your results. Finally, and for a more advanced case, it is possible to fully automatise reproducibility checks.
 
-A Tested software make it more reliable and robust. You will greatly enhance its **Reusability** and make your science more **Reproducible**.   
+* Reliability of science results can be tested by comparing your code with exsiting datasets. Can you replicate exiting
+  results with your own tool? That will give you an interesting insight.
+
+A Tested software make it more reliable and robust. You will greatly enhance its **Reusability** and make your science more **Reproducible**.
 
 ### Dissemination.
 
-Dissemination is a cornerstone of research. When it comes to research software you will have to make sure that people know where to find it and how to use it (**Findable** and **Reusable**). It comes down to three important pilars:
+Dissemination is a cornerstone of research. When it comes to research software you will have to make sure that people
+know where to find it and how to use it (**Findable** and **Reusable**). It comes down to three important pilars:
 
-* License: This is probably one of the most basic item of the software management plan. If there is no license in your software people won't know if they have the right to re-use your software. No license means that you retain all the rights to your source code and no one may reproduce, distribute or create derivative works from your code (which is the opposite of research philosophy). Please see the chapter on intellectual property and software licenses for more details **[link TBD]**.
+* License: This is probably one of the most basic item of the software management plan. If there is no license in your
+  software people won't know if they have the right to re-use your software. No license means that you retain all the
+  rights to your source code and no one may reproduce, distribute or create derivative works from your code (which is
+  the opposite of research philosophy). Please see the chapter on intellectual property and software licenses for more
+  details **[link TBD]**.
 
-* Documentation is paramount: And guess what, the main group that it will help is YOUR TEAM! Research projects often span several years with people coming in and some leaving the team. If it takes someone 6 months just to understand the software that the team is developing it is going to be a waste of time. If you want a sustainable project, write a good documentation. In addition, If you produce a software with a good documentation it will be more likely used by the community and then you might get credit for it! You should make sure that the documentation is easily accessible (e.g. a website) and tailored to future researchers and the academic community in your research domain (Lecture on [Documentation] is available in the program). Document how the software works, but not only this. Always describe how it serves a research question. 
+* Documentation is paramount: And guess what, the main group that it will help is YOUR TEAM! Research projects often
+  span several years with people coming in and some leaving the team. If it takes someone 6 months just to understand
+  the software that the team is developing it is going to be a waste of time. If you want a sustainable project, write a
+  good documentation. In addition, If you produce a software with a good documentation it will be more likely used by
+  the community and then you might get credit for it! You should make sure that the documentation is easily accessible
+  (e.g. a website) and tailored to future researchers and the academic community in your research domain (Lecture on
+  [Documentation] is available in the program). Document how the software works, but not only this. Always describe how
+  it serves a research question.
 
-* Software repositories: It is important to place your software (the released version) to a place where people can download it freely. Collaborative development platform such as github are not made to store software on the long term. Nevertheless, other platform are made for this (e.g. figshare, zenodo, etc..). This is where you should look for a long term storage. Please see chapter on dissemination for more details **[Link TBD]**.
+* Software repositories: It is important to place your software (the released version) to a place where people can
+  download it freely. Collaborative development platform such as github are not made to store software on the long
+  term. Nevertheless, other platform are made for this (e.g. figshare, zenodo, etc..). This is where you should look for
+  a long term storage. Please see chapter on dissemination for more details **[Link TBD]**.
 
 To go a little bit further, you might want to take extra step in the dissemination direction:
 
-* Publication: Once you release your software, you might want to publish it! Numerous journals accept papera about research software. Some are generalists (e.g. JOSS, JORS, SoftwareX, etc) and some are domain oriented (you can get a non exhaustive list [here](https://www.software.ac.uk/top-tip/which-journals-should-i-publish-my-software)). This is really something you should consider! It will give you a lot of visibility and allow you to get a citable paper associated to your software (you can follow the lecture on [Publishing your software] for this).
+* Publication: Once you release your software, you might want to publish it! Numerous journals accept papera about
+  research software. Some are generalists (e.g. JOSS, JORS, SoftwareX, etc) and some are domain oriented (you can get a
+  non exhaustive list [here](https://www.software.ac.uk/top-tip/which-journals-should-i-publish-my-software)). This is
+  really something you should consider! It will give you a lot of visibility and allow you to get a citable paper
+  associated to your software (you can follow the lecture on [Publishing your software] for this).
 
-* Training: If your software sees a lot of buy-in in the community and that is relatively complex to use (not all software are), you might want to train others to use it. You can do that via tutorials or training events. This is a very powerful way to give your work more visibility and a very efficient way to create collaborations!
+* Training: If your software sees a lot of buy-in in the community and that is relatively complex to use (not all
+  software are), you might want to train others to use it. You can do that via tutorials or training events. This is a
+  very powerful way to give your work more visibility and a very efficient way to create collaborations!
 
 
 ### Long term sustainability
-Maintenance of the software is tricky. We can distinguish two parts: 
+Maintenance of the software is tricky. We can distinguish two parts:
 
-* The software is in a final form, but the founding is still there: In that case it is important to identify who is in charge of the maintenance and update. You might work with totally different people than at the beginning of the project. So it is important to plan this ahead (cf previous section). A good documentation will always help the maintenance.
+* The software is in a final form, but the founding is still there: In that case it is important to identify who is in
+  charge of the maintenance and update. You might work with totally different people than at the beginning of the
+  project. So it is important to plan this ahead (cf previous section). A good documentation will always help the
+  maintenance.
 
-* The research project comes to an end (and with it, its founding). That’s the tricky situation, long term maintenance is difficult because founders do not plan for this (which happens everywhere). If you want to increase the chances that your software work in 5 or 10 years, what you could envisage to do is to distribute your software with its own computational environment. This ships your software with the required dependencies and put all this in its own bubble. This greatly enhance long term **Reproducibility** of your work. If you are interested to learn more about this, you can register to the lecture on [Reproducible Computational Environment].
+* The research project comes to an end (and with it, its founding). That’s the tricky situation, long term maintenance
+  is difficult because founders do not plan for this (which happens everywhere). If you want to increase the chances
+  that your software work in 5 or 10 years, what you could envisage to do is to distribute your software with its own
+  computational environment. This ships your software with the required dependencies and put all this in its own
+  bubble. This greatly enhance long term **Reproducibility** of your work. If you are interested to learn more about
+  this, you can register to the lecture on [Reproducible Computational Environment].
 
 
 ## Minimal version
 
-Everything that has been described previously can be quite intimidating at first. There is a lot to think about and depending on the size of your project you might not need all of these details. If you want to go with a minimal set of items to put in place you could choose the following ones:
+Everything that has been described previously can be quite intimidating at first. There is a lot to think about and
+depending on the size of your project you might not need all of these details. If you want to go with a minimal set of
+items to put in place you could use the following:
 
-* Information on what software outputs (including documentation and other related material) are expected to be produced ; 
-* Who is responsible for the development work?;
-* The version control process to be used;
-* What license will be used for each produced piece of code/data?
+1. Information on what software outputs (including documentation and other related material) are expected to be
+   produced.
+2. Who is responsible for the development work?;
+3. Which version control system is to be used?
+4. What license will be used for each produced piece of code/data?
 
-These four items should be on your list in the planning phase. 
+These four items should be on your list in the planning phase.
 
 
+[agile]: https://en.wikipedia.org/wiki/Agile_software_development
+[gitzerohero]: https://srse-git-github-zero2hero.netlify.app/
+[gitcollaboration]: https://blog.nshephard.dev/git-collaboration/
+[watefall]: https://en.wikipedia.org/wiki/Waterfall_model
