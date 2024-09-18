@@ -7,8 +7,8 @@ title: Setup
 
 The application of the [FAIR principles][fair] (Findable, Accessible, Interoperable, Reusable) to a [research
 software][fair4rs] project is easier when you plan the development of your software. Considering who is in charge of the
-development, what tools will be used, who will be in charge of its long term maintenance and where are the potential
-risks related to software development are all important aspects of a successful software project. This course will
+development, what tools will be used, who will be in charge of its long term maintenance and what the potential risks
+are related to software development are all important aspects of a successful software project. This course will
 introduce these ideas in the context of creating FAIR software for your research. Planning the development of your
 research software will help you with organisation and resource management, long term sustainability, and intellectual
 property aspects.
