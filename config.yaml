@@ -63,23 +63,24 @@ contact: 'romain.thomas@sheffield.ac.uk'
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
+episodes:
 - introduction.md
 - SMP_for_research.md
 - Intellectual_property_and_licences.md
 - Dissemination_impact.md
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
 varnish: RSE-Sheffield/uos-varnish@main
+sandpaper: carpentries/sandpaper@allow-custom-title-340
