@@ -2,20 +2,18 @@
 title: Setup
 ---
 
-No particular setup is needed for this part of the FAIR training program. This module is expected to last 2.5 houts in
-total and can therefore be completed in half a day.
 
-## Summary
+## Overview
 
 The application of the [FAIR principles][fair] (Findable, Accessible, Interoperable, Reusable) to a [research
 software][fair4rs] project is easier when you plan the development of your software. Considering who is in charge of the
-development, what tools will be used, who will be in charge of its long term maintenance and where are the potential
-risks related to software development are all important aspects of a successful software project. This course will
+development, what tools will be used, who will be in charge of its long term maintenance and what the potential risks
+are related to software development are all important aspects of a successful software project. This course will
 introduce these ideas in the context of creating FAIR software for your research. Planning the development of your
 research software will help you with organisation and resource management, long term sustainability, and intellectual
 property aspects.
 
-We will start by introducing some definitions (What is a research software? How a software is traditionaly developed?)
+We will start by introducing some definitions (What is a research software? How software is traditionally developed?)
 and then dive into the concept of research Software Management Plans (SMPs) and discuss why it is important to plan for
 the development of your software.
 
@@ -36,7 +34,6 @@ development of the Software Management Plan:
 
 The course uses worked examples to introduce and explore elements that you should consider when publishing your
 software which will help you easily reference your work and help make it more findable and reusable by others.
-
 
 ## Target audience
 

@@ -15,7 +15,7 @@ exercises: 2
 ::::::::::::::::::::::::::::::::::::: objectives
 
 - Understand the definition of software in research.
-- Understand the FAIR principles applied to research software.
+- Understand the FAIR principles as applied to research software.
 - Get to know (briefly) the software lifecycle.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
