@@ -15,7 +15,7 @@ exercises: 0
 ::::::::::::::::::::::::::::::::::::: objectives
 
 - Understand the main points of a software management plan.
-- What are the main questions you should ask yourself before diving into the coding part.
+- Know the main questions you should ask yourself before diving into coding.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -209,9 +209,10 @@ To go a little bit further, you might want to take extra step in the disseminati
 
 - **Publication**: Once you release your software, you might want to publish it! Numerous journals accept papera about
   research software. Some are generalists (e.g. [JOSS][joss], JORS, [SoftwareX][softwarex] to name a few) and some are
-  domain oriented (you can get a non-exhaustive list [here][softwarepublishing])). A dedicated paper describing your
-  software is really something you should consider! It will give you a lot of visibility and allow you to get a citable
-  paper associated to your software (you can follow the lecture on [Publishing your software] for this).
+  domain oriented (you can get a non-exhaustive list from the [Software Sustainability
+  Institute][softwarepublishing])). A dedicated paper describing your software is really something you should consider!
+  It will give you a lot of visibility and allow you to get a citable paper associated to your software (you can follow
+  the lecture on [Publishing your software] for this).
 
 - **Training**: If your software sees a lot of buy-in from the community and is relatively complex to use (not all
   software is), you might want to train others to use it. You can do that via tutorials and/or training events. This is
