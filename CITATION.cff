@@ -8,17 +8,44 @@ message: >-
   metadata from this file.
 type: software
 authors:
-  - given-names: 'Romain, Ric, Kate'
-    family-names: "Thomas, Campbell, O'Neill"
-    email: 'romain.thomas@sheffield.ac.uk, r.j.campbell@sheffield.ac.uk, k.oneill@sheffield.ac.uk'
+  - given-names: 'Romain'
+    family-names: 'Thomas'
+    email: 'romain.thomas@sheffield.ac.uk'
     affiliation: University of Sheffield
-    orcid: https://orcid.org/0000-0001-8385-3276 
-repository-code: 'https://github.com/Romain-Thomas-Shef/FAIR_Management_plan' 
-url: '' # FIXME
+    orcid: https://orcid.org/0000-0001-8385-3276
+  - given-names: 'Kate'
+    family-names: 'O'Neill'
+    email: 'k.oneill@sheffield.ac.uk'
+    affiliation: University of Sheffield
+    orcid: 'https://orcid.org/0000-0003-2420-0763'
+  - given-names: 'Jenni'
+    family-names: 'Adams'
+    email: 'j.adams@sheffield.ac.uk'
+    affiliation: University of Sheffield
+    orcid: 'https://orcid.org/0000-0002-2013-0502'
+  - given-names: 'Ric'
+    family-names: 'Campbell'
+    email: 'r.j.campbell@sheffield.ac.uk'
+    affiliation: University of Sheffield
+    orcid: 'https://orcid.org/0000-0002-0975-9270'
+repository-code: 'https://github.com/FAIR2-for-research-software/Software_Lifecycle_Planning' 
+url: 'https://github.com/FAIR2-for-research-software/Software_Lifecycle_Planning'
 abstract: >-
-  # FIXME
-keywords: # FIXME
+  The application of the FAIR principles (Findable, Accessible, Interoperable, Reusable) to a research software project is easier when you plan the development of your software. Considering who is in charge of the development, what tools will be used, who will be in charge of its long term maintenance and where are the potential risks related to software development are all important aspects of a successful software project. This course will introduce these ideas in the context of creating FAIR software for your research. Planning the development of your research software will help you with organisation and resource management, long term sustainability, and intellectual property aspects.
+
+We will start by introducing the concept of research software management plans (SMPs) and we will discuss why it is important to plan for the development of your software. We will go through the standard software lifecycle and highlight important features of an SMP. 
+
+Then we will discuss two important aspects of software development in the context of software in academia: 
+Licences and Intellectual Property: Software is a creative work and as soon as it is created it automatically attracts copyright protection. This means that if you want other people to be able to use your software without having to ask you directly you need to apply a licence to it. We will look at why licensing matters, how to choose a licence and what the implications are when you want to build on other people’s openly licensed software.
+Dissemination: While putting your software online certainly helps it satisfy the FAIR principles, simply doing so might not be enough for other researchers to actually find and utilise what you’ve put out there. It’s important to know the benefits and issues with where you store and publish your data, and to make the most of the tools these platforms provide, such as Digital Object Identifiers (DOIs). It’s also important to know best practice for how to increase the visibility and citability of your work in cases where your chosen platform lacks these features. We will introduce and explore worked examples of elements that you should consider when publishing your software, which will help you easily reference your work, and also help make it more findable and reusable by others.
+keywords:
   - carpentries
   - fair4rs
   - university of sheffield
+  - software management plans
+  - software lifecycle
+  - repositories
+  - dois
+  - metadata
+  - citation
 license: CC-BY-4.0
