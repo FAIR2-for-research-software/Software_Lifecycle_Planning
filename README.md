@@ -83,8 +83,12 @@ Citation: https://github.com/FAIR2-for-research-software/Software_Lifecycle_Plan
 Licence: https://github.com/FAIR2-for-research-software/Software_Lifecycle_Planning/blob/main/LICENSE.md
 
 ## Sources/references
+
 https://www.software.ac.uk/guide/writing-and-using-software-management-plan
+
 https://zenodo.org/records/7248877
+
 https://osf.io/preprints/biohackrxiv/k8znb
+
 https://f1000research.com/articles/6-876/v1
 
