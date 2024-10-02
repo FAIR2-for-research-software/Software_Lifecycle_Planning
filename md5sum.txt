@@ -11,4 +11,4 @@
 "learners/acknowledgements.md" "a388d4772dc019c9f174f4a6c43a8d54" "site/built/acknowledgements.md" "2024-10-02"
 "learners/reference.md" "4baef590adec662ce77c0890fbaa2863" "site/built/reference.md" "2024-10-02"
 "learners/setup.md" "b7b0da55a530debf02aa7ccdb6ab13f5" "site/built/setup.md" "2024-09-20"
-"profiles/learner-profiles.md" "60b93493cf1da06dfd63255d73854461" "site/built/learner-profiles.md" "2024-06-20"
+"profiles/learner-profiles.md" "e85c07c5042025684a7a1d23cd456e5e" "site/built/learner-profiles.md" "2024-10-02"
