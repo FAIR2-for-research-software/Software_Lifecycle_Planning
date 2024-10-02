@@ -34,7 +34,7 @@ source: 'https://github.com/FAIR2-for-research-software/Software_Lifecycle_Plann
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'romain.thomas@sheffield.ac.uk', 'rdm@sheffield.ac.uk'
+contact: 'romain.thomas@sheffield.ac.uk'
 
 # Custom URL if you are deploying to a URL that is not the default
 # github pages domain
