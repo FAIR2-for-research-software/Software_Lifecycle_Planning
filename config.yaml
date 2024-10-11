@@ -67,8 +67,8 @@ episodes:
 - introduction.md
 - SMP_for_research.md
 - Intellectual_property_and_licences.md
-#- doi and repositories.md
-#- metadata and citation.md
+- doi and repositories.md
+- metadata and citation.md
 
 # Information for Learners
 learners:
