@@ -1,5 +1,5 @@
 ---
-title: "Intellectual Property and impact"
+title: "Copyright and Licenses"
 teaching: 10
 exercises: 0
 ---
@@ -20,3 +20,5 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+Available soon.
