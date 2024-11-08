@@ -264,5 +264,5 @@ These four items should be on your list in the planning phase.
 [reprocompenv]: https://ubdbra001.github.io/FAIR4RS-VirtualEnvs/
 [softwarepublishing]: https://www.software.ac.uk/top-tip/which-journals-should-i-publish-my-software
 [softwarex]: https://www.sciencedirect.com/journal/softwarex
-[waterfall]: https://en.wikipedia.org/wiki/Water_model
-[zenodo]: https://zeondo.org
+[waterfall]: https://en.wikipedia.org/wiki/Waterfall_model
+[zenodo]: https://zenodo.org

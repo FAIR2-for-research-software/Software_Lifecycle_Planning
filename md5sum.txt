@@ -5,7 +5,7 @@
 "index.md" "840e3606b556cdb1cbc0ad70b0f3d0fe" "site/built/index.md" "2024-09-20"
 "links.md" "0610e59d1892d651cecb7ceb132ba9a5" "site/built/links.md" "2024-09-18"
 "episodes/introduction.md" "00be60e81059f089e14ee03290a30c9b" "site/built/introduction.md" "2024-09-20"
-"episodes/SMP_for_research.md" "209f9dbe8df5025957e205c82b1f6c47" "site/built/SMP_for_research.md" "2024-09-20"
+"episodes/SMP_for_research.md" "2d67886bcba25099b8b43b1ab24e49bc" "site/built/SMP_for_research.md" "2024-11-08"
 "episodes/Intellectual_property_and_licences.md" "21fc60ee32fcef8f1224183ee72ca1c5" "site/built/Intellectual_property_and_licences.md" "2024-09-16"
 "episodes/doi and repositories.md" "74ed18fc8b129a53526517ca76abd405" "site/built/doi and repositories.md" "2024-10-11"
 "episodes/metadata and citation.md" "a59dab6eacc0624eb94087337eb71af8" "site/built/metadata and citation.md" "2024-10-11"
