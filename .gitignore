@@ -49,3 +49,12 @@ docs/
 # translation temp files
 po/*~
 
+
+# OSX
+.DS_Store
+
+# Emacs
+\#
+*~
+.dir-locals.el
+.envrc
