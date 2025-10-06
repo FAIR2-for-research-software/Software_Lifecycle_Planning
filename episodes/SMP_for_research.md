@@ -121,7 +121,7 @@ version of your software (e.g. version1, version 1_1, version1_2, version1_final
 become unmanageable. To avoid this situation, it is important to have a version control tool that allows you to track
 the changes that you implement in your software over time. Using version control will help making your software more
 **FAIR**. If you are unfamiliar with version control then the modules on [Git for Beginners][gitzerohero] and
-[Git Collaboration][gitcollaboration] will be useful.
+[Git With It][git_with_it] will be useful.
 
 ### Timeline and Milestones
 
@@ -258,7 +258,7 @@ These four items should be on your list in the planning phase.
 [gh]: https://github.com/
 [gl]: https://gitlab.com/
 [gitzerohero]: https://srse-git-github-zero2hero.netlify.app/
-[gitcollaboration]: https://blog.nshephard.dev/git-collaboration/
+[git_with_)it]: https://fair2-for-research-software.github.io/git-with-it/
 [joss]: https://joss.theoj.org/
 [pythontesting]: https://sylviawhittle.github.io/python-testing-for-research/
 [reprocompenv]: https://ubdbra001.github.io/FAIR4RS-VirtualEnvs/
