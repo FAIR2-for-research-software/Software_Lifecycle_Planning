@@ -161,7 +161,7 @@ There are some strategies to ensure both code quality and research reproducibili
 - **Peer Review** : Code quality can be checked by doing code peer reviews. Regular peer review are very helpful both
   for increasing the quality and for disseminating knowledge in the team (reducing the bus factor). Automated testing
   with continuous integration. There are modules on [testing and continuous integration][pythontesting] and version
-  control ([Git for Beginners][gitzerohero] and [Git Collaboration][gitcollaboration]) that can be undertaken.
+  control ([Git for Beginners][gitzerohero] and [Git With It][git_with_it]) that can be undertaken.
 
 - **Data Version Control** : Reproducibility will benefit from the previous suggestions, but you can also adopt a strategy
   for data version control (DVC) that will help track the state of your data and changes. Parametrisation of code
