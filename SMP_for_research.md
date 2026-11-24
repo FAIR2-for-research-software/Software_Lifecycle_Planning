@@ -258,7 +258,7 @@ These four items should be on your list in the planning phase.
 [gh]: https://github.com/
 [gl]: https://gitlab.com/
 [gitzerohero]: https://srse-git-github-zero2hero.netlify.app/
-[git_with_)it]: https://fair2-for-research-software.github.io/git-with-it/
+[git_with_it]: https://fair2-for-research-software.github.io/git-with-it/
 [joss]: https://joss.theoj.org/
 [pythontesting]: https://sylviawhittle.github.io/python-testing-for-research/
 [reprocompenv]: https://ubdbra001.github.io/FAIR4RS-VirtualEnvs/
