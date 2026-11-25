@@ -4,7 +4,7 @@ teaching: 30
 exercises: 0
 ---
 
-:::::::::::::::::::::::::::::::::::::: questions 
+:::::::::::::::::::::::::::::::::::::: questions
 
 - What is a DOI?
 - What good is a DOI (compared to, say, a URL), and how do I get a DOI?
@@ -34,11 +34,9 @@ Historically ‘research outputs’ have been focused on papers, and while this 
 
 Regardless of the reason you want to disseminate your code, there are some ways you can make this easier for both yourself and anyone who wishes to use your code - these include DOIs, using repositories, providing metadata, and knowing how to cite yourself.
 
-
 ## What is a DOI?
 
 A DOI is a type of PID. A PID is a Persistent Identifier - a reference that will continue to identify the same object, person or institution over time. A DOI is a Digital Object Identifier - a PID that refers specifically to a digital object such as an online article, dataset or archived piece of software. Each individual DOI is linked to a specific digital object and (should) always direct to that object, regardless of potential changes to its location or metadata. The most common use of DOIs is for journal articles. A single article should have a single DOI, but they can also be used for databases or software/code.
-
 
 ::::::::::::::::::::::::::::::::::::::: callout
 
@@ -49,7 +47,6 @@ This is what a DOI looks like:  [10.1016/j.ascom.2020.100427](https://doi.org/10
 :::::::::::::::::::::::::::::::::::::::::::::::
 
 You’ve probably seen these many times before because, like this one, they are used for journal articles. Interestingly, the article the above DOI links to is about a tool that has been created, is freely available, and has a licence applied to it, but it provides no link to the [code/software itself](https://github.com/astrom-tom/SPARTAN).
-
 
 ## Isn't that just a link/URL?
 
@@ -72,6 +69,7 @@ DOIs are also designed to be short and human-readable, again unlike most URLs, w
 Version control is of course very important around code (see the Version Control part of the FAIR^2^4RS training), and you shouldn’t create more than one DOI for a single digital object -  however you can nevertheless version with DOIs:
 
 ::::::::::::::::::::::::::::::::::::::: callout
+
 # DOIs with multiple versions
 
 [10.15131/shef.data.22633528**.v2**](https://doi.org/10.15131/shef.data.22633528.v2)
@@ -82,7 +80,6 @@ That part at the end indicates which version the DOI will resolve to. If you hav
 
 It’s important to note that if no version suffix is included in the DOI link, it will resolve to the most recent version of the object. This is sometimes exactly what is wanted and sometimes not, so it’s good to think about this when using a DOI.
 
-
 ## How do I get a DOI?
 
 To get a DOI for code, the best place to use is a repository. It’s important to note that (currently) GitHub does not mint DOIs. Some examples of repositories that do are [Zenodo](https://about.zenodo.org) and the University's institutional repository, [ORDA](https://orda.shef.ac.uk).
@@ -91,24 +88,23 @@ When you make a deposit in a repository that does mint DOIs, there should be not
 
 !["Image 1 - DOI location in a Zenodo deposit"](fig/FAIR4RS_Zenodo_doi_image.png){alt="A screenshot of a the DOI on a Zenodo deposit"}
 
-
 !["Image 2 - DOI location in a ORDA deposit"](fig/FAIR4RS_ORDA_doi_image.png){alt="A screenshot of a the DOI on a ORDA deposit"}
 
 :::::::::::::::::::::::::::::::::::: keypoints
- - DOIs are persistent identifiers that should always point to your code.
- - They should be maintained by the minting organisation, making them stronger than a URL.
- - DOIs can handle multiple versions of the same object.
- - Some repositories mint DOIs for deposits.
+
+- DOIs are persistent identifiers that should always point to your code.
+- They should be maintained by the minting organisation, making them stronger than a URL.
+- DOIs can handle multiple versions of the same object.
+- Some repositories mint DOIs for deposits.
 ::::::::::::::::::::::::::::::::::::::::::::::
 
 # Repositories
-
 
 ## Introduction
 
 Hosting large amounts of data, minting DOIs, creating a usable interface for code and the ability to pull the code to other work setups all takes a lot of time and effort. This is where repositories come in. A repository will make space available to you to deposit your work. GitHub, as a whole, could be seen as a repository, although you also create repositories (repos) yourself inside GitHub. It also does a lot more than just hold your data/code, and of course its main function is version control.
 
-In the last episode we saw some repositories - [Zenodo](https://about.zenodo.org) and the University's institutional repository [ORDA](https://orda.shef.ac.uk) -  but there are many more out there. Most repositories, certainly used in academia, tend to be fully open, so anyone can access what is deposited. 
+In the last episode we saw some repositories - [Zenodo](https://about.zenodo.org) and the University's institutional repository [ORDA](https://orda.shef.ac.uk) -  but there are many more out there. Most repositories, certainly used in academia, tend to be fully open, so anyone can access what is deposited.
 
 It’s important to remember this, as you may not want, or be able to, make your code fully open to all (although we encourage you to where possible). However, there are repositories out there that have different levels of access. For example, the [UK Data Service repository](https://ukdataservice.ac.uk/) has three levels of access: open, safeguarded (users must sign the End User Licence), and controlled (users must apply for access with criteria set by the data provider). However, currently the UK Data Service does not hold code.
 
@@ -116,7 +112,7 @@ It’s also worth noting that there are different types of repositories. Some ar
 
 ## Differences between repositories
 
-As we’ve just seen, not all repositories are created equal. Some are not just repositories, others aren’t technically repositories at all. This means you should put some thought into which repository you are going to use to deposit your code. 
+As we’ve just seen, not all repositories are created equal. Some are not just repositories, others aren’t technically repositories at all. This means you should put some thought into which repository you are going to use to deposit your code.
 
 ::::::::::::::::::::::::::::::::::::::: callout
 
@@ -126,7 +122,7 @@ As we’ve just seen, not all repositories are created equal. Some are not just 
 - What type of licence do you wish to apply to your work?
 - Do you want a DOI?
 - Do you need it to handle versioning?
-- Do you need your work to be machine-accessible? 
+- Do you need your work to be machine-accessible?
 
 :::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -143,7 +139,6 @@ As there are many different repositories out there, choosing a suitable one for 
 Both have a useful description of each repository and helpful icons to enable you to quickly answer some of the questions listed above.
 
 Our own guidance is that you should look for a subject- or data-type-specific repository first, and if nothing is suitable or has the functionality required, then you should use ORDA (the University of Sheffield institutional repository).
-
 
 :::::::::::::::::::::::::::::::::::::::: challenge
 
@@ -229,9 +224,9 @@ As mentioned above, if you are thinking of having both a package in a repository
 
 Of course, these are not the only places you can use. Similarly in practice, you can deposit a GitHub repo in Zenodo. GitHub provides [guidance](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content) on how to do this.
 
-
 :::::::::::::::::::::::::::::::::::: keypoints
- - There are numerous repositories available and you should consider what you want from one
- - Some are better than others depending on your purpose and needs
- - GitHub doesn’t mint DOIs, but you can link your GitHub repos to a repository that does
+
+- There are numerous repositories available and you should consider what you want from one
+- Some are better than others depending on your purpose and needs
+- GitHub doesn’t mint DOIs, but you can link your GitHub repos to a repository that does
 ::::::::::::::::::::::::::::::::::::::::::::::

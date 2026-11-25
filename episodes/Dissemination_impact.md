@@ -4,7 +4,7 @@ teaching: 10
 exercises: 0
 ---
 
-:::::::::::::::::::::::::::::::::::::: questions 
+:::::::::::::::::::::::::::::::::::::: questions
 
 - What are Digital Object indentifiers?
 - What are Repositories for software?
