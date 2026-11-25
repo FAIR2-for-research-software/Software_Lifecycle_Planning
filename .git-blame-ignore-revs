@@ -1,0 +1,11 @@
+# Commits that should be ignored, typically those associated with linting the code.
+#
+# Whilst individual commits can be looked up it is convenient to leave a dated note indicating what changes are being
+# ignored and by whom they were made.
+
+# ns-rse 2024-09-19 - Linting code and tidying, touched many files as long lines were hard-wrapped to make it easier
+# to identify lines that change
+c1b7309c68257226f6f2d5454362337160c5325d
+de47e17274436a00dea0f98145a14047f641b689
+70372038d7c8f95fde8a460b6cc79eb1e6b1fd7a
+5beacf65b9ca8db4bbace6a2feaa01d850f3fabc
