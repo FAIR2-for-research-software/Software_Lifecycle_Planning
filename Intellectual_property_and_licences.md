@@ -4,7 +4,7 @@ teaching: 10
 exercises: 0
 ---
 
-:::::::::::::::::::::::::::::::::::::: questions 
+:::::::::::::::::::::::::::::::::::::: questions
 
 - What is copyright and intellectual property?
 - What license should I use for my software?
@@ -13,12 +13,11 @@ exercises: 0
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
- 
+
 - Understand the legal terminology around intellectual property
 - Understand the main software licences, their differences and how to choose one
 - Understand how to work with licences and dependencies
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
-
 
 Available soon.
