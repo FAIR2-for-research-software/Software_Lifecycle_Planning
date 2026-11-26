@@ -4,7 +4,7 @@ teaching: 15
 exercises: 0
 ---
 
-:::::::::::::::::::::::::::::::::::::: questions 
+:::::::::::::::::::::::::::::::::::::: questions
 
 - What is metadata and why is it important, and what is best practice around metadata?
 - What does good metadata look like?
@@ -47,9 +47,7 @@ It’s a good question, and one I’m sure people would argue over as they have 
 
 It might be worth thinking of metadata as the overarching information about your code. A README goes into more detail but covers the whole software/project, and comments etc are much more fine-grained documentation relating to the places in the code where they reside.
 
-
 There is a [Documentation](https://github.com/Joe-Heffer-Shef/FAIR4RS-Documentation/tree/main) module on this FAIR^2^4RS course, which goes over all things documentation in more detail.
-
 
 :::::::::::::::::::::::::::::::::::::::: challenge
 
@@ -144,15 +142,15 @@ You’ll have come across standards before, of course, when you download citatio
 !["Image 3 - Citation standard options from Google Scholar"](fig/scholar_citation_standards.png){alt="A screenshot showing the standard citation options from Google Scholar"}
 
 :::::::::::::::::::::::::::::::::::: keypoints
- - Metadata helps drive discovery of your software
- - It’s easy to not include key elements as these are ‘obvious’
- - Standardisation of metadata is useful to help tools use the metadata
+
+- Metadata helps drive discovery of your software
+- It’s easy to not include key elements as these are ‘obvious’
+- Standardisation of metadata is useful to help tools use the metadata
 ::::::::::::::::::::::::::::::::::::::::::::::
 
 # Citation
 
 ## Introduction
-
 
 If we go back to the first thing that was stated in this module,
 
@@ -172,12 +170,11 @@ There’s also been some movement with the REF as well, with more types of outpu
 
 These are also all good reasons not to simply cite the associated paper for a piece of software (if there even is one), but to cite the software itself - and to make it easy for others to cite your own code.
 
-
 ## Citation and CITATION.cff files
 
 Citation of software is of course different to that of a standard journal article. Normally there is one version of an article and nothing that can really ‘break’ with them; this is not true of software. Also, a paper tends to have all the information you need to cite it correctly quite clearly there for you - again, this often isn’t the case for software.
 
-::::::::::::::::::::::::::::::::challenge 
+::::::::::::::::::::::::::::::::challenge
 
 Think what people might need to know from a citation to be able to reproduce a piece of research. (I.e., to make sure they're using the same piece of software used in the original study?)
 
@@ -185,12 +182,12 @@ Think what people might need to know from a citation to be able to reproduce a p
 
 Some of the main things to know about the software used that would be integral to being able to reproduce the outputs would be:
 
- - Title
- - Authors
- - Version used
- - Where to find the software
- - How to access the code (if different to the above, and available)
- 
+- Title
+- Authors
+- Version used
+- Where to find the software
+- How to access the code (if different to the above, and available)
+
 The first two, while it’s clear that they should be part of a citation, might not immediately seem relevant when thinking about reproducibility, but if you think that they can sometimes act as a kind of ‘primary key’ to help people know they’re working with the right software (see the last episode and its discussion of naming things).
 
 The bottom three you can see would be needed in order to be certain you can reproduce the work as best as possible. We know that many changes can happen between versions, some big changes, some small changes that could have knock-on effects to how everything works. Of course, where to find the software goes back to our first episode, and having a solid pointer to the code can be solved by getting a DOI for your work (you should of course not mint a DOI for other people’s work, and you might just have to cite the best link available).
@@ -211,18 +208,19 @@ message: >-
   metadata from this file.
 type: software
 authors:
-  - given-names: 'Jenni'
+
+- given-names: 'Jenni'
     family-names: 'Adams'
-    email: 'j.adams@sheffield.ac.uk'
+    email: '<j.adams@sheffield.ac.uk>'
     affiliation: 'University of Sheffield'
-    orcid: 'https://orcid.org/0000-0003-2420-0763'
-  - given-names: 'Ric'
+    orcid: '<https://orcid.org/0000-0003-2420-0763>'
+- given-names: 'Ric'
     family-names: 'Campbell'
-    email: 'r.j.campbell@sheffield.ac.uk'
+    email: '<r.j.campbell@sheffield.ac.uk>'
     affiliation: 'University of Sheffield'
-    orcid: 'https://orcid.org/0000-0002-0975-9270'
-repository-code: 'https://github.com/RicCampbell/FAIR4RS_repos_dois'
-url: 'https://github.com/RicCampbell/FAIR4RS_repos_dois'
+    orcid: '<https://orcid.org/0000-0002-0975-9270>'
+repository-code: '<https://github.com/RicCampbell/FAIR4RS_repos_dois>'
+url: '<https://github.com/RicCampbell/FAIR4RS_repos_dois>'
 abstract: >-
   While putting your software online certainly helps it satisfy the FAIR principles, simply doing so might not be enough for other researchers to actually find and utilise what you’ve put out there.
 
@@ -231,14 +229,16 @@ abstract: >-
   This course will introduce and explore worked examples of elements that you should consider when publishing your software, which will help you easily reference your work, and also help make it more findable and reusable by others.
 
 keywords:
-  - carpentries
-  - fair4rs
-  - university of sheffield
-  - repositories
-  - dois
-  - metadata
-  - citation
+
+- carpentries
+- fair4rs
+- university of sheffield
+- repositories
+- dois
+- metadata
+- citation
 license: CC-BY-4.0
+
 ```
 </code>
 
